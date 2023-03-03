@@ -8,8 +8,10 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: About.pdf
+      - href: CV.pdf
         text: CV
+      - href: Make_a_Site.qmd
+        text: Make your own site!
 
 format:
   html:
