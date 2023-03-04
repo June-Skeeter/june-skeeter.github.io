@@ -2,4 +2,6 @@
 title: "My Work"
 ---
 
-Here are some of the things I've been working on ...
+Here is some about the things I've been working on ...
+
+I developed and open access GIS course for the UBC Geography department, you can find the course here: [https://geos270.github.io/Syllabus/](https://geos270.github.io/Syllabus/).
