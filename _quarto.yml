@@ -1,6 +1,8 @@
 project:
   type: website  
   output-dir: docs
+  render:
+    - "*.qmd"
 
 website:
   title: "AboutMe"
@@ -8,10 +10,12 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: projects.qmd
+        text: My Work
       - href: CV.pdf
         text: CV
       - href: Make_a_Site.qmd
-        text: Make your own site!
+        text: How to make your own site!
 
 format:
   html:

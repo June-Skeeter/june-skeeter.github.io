@@ -2,7 +2,10 @@
 title: "About Me"
 ---
 
-Hi! I'm Dr. June Skeeter.  I am a geospatial data scientist and educator who is passionate about social and environmental justice. 
+![](images/profilePic.jpg){width=250 fig-align=center}
+
+
+Hi! I'm Dr. June Skeeter.  I am a geospatial data scientist and educator currently working at the University of British Columbia.
 
 I'm fluent in Python and proficient a number of other languages including JavaScript, Matlab, . 
 

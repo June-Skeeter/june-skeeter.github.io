@@ -9,15 +9,22 @@
   {
     "objectID": "Make_a_Site.html",
     "href": "Make_a_Site.html",
-    "title": "Make your own site!",
+    "title": "Make your own website!",
     "section": "",
-    "text": "Hi!\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "About Me",
     "section": "",
-    "text": "Hi!\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Hi! I’m Dr. June Skeeter. I am a geospatial data scientist and educator currently working at the University of British Columbia.\nI’m fluent in Python and proficient a number of other languages including JavaScript, Matlab, .\nI am a data scientist and GIS expert who is fluent in Python and working on teaching myself javascript. My research interests are broad. I focus on using GIS, machine-learning, remote sensing, and census data to address issues ranging from climate change to police violence. I prefer to work with open source software whenever possible. Accessibility of information, transparency of data analysis, and free use of tools are central to my pedagogical philosophy and personal research practices."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "My Work",
+    "section": "",
+    "text": "Here are some of the things I’ve been working on …"
   }
 ]
