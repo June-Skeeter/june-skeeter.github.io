@@ -9,7 +9,6 @@ author:
 
 format: 
   pdf:
-    keep-tex: true
     template-partials: 
       - title.tex
     mainfont: TeX Gyre Bonum
@@ -30,37 +29,55 @@ citeproc: false
 csl: american-geophysical-union.csl
 
 ---
-# Current Positions
-
-Postdoctoral Researcher, UBC Micrometeorolgy group, 2023
-
-Sessional Instructor, Geographic Information Systems (GEOS 270), UBC Geography Department, 2020-Present
 
 # Education
 
-## PhD in Geography
++-----------------------------------------------------------:+-------:+
+| 											         		 |        |
++============================================================+=======:+
+|PhD Geography, University of British Columbia (UBC)         | 2023   |
++------------------------------------------------------------+--------+
+| - {{< var Dissertation >}}	  			         		 |        |
++------------------------------------------------------------+--------+
+|                                                            |        |
++------------------------------------------------------------+--------+
+| MsC Geography, University of South Carolina (USC)          | 2015   |
++------------------------------------------------------------+--------+
+| - {{< var Thesis >}}						         		 |        |
++------------------------------------------------------------+--------+
+|                                                            |        |
++------------------------------------------------------------+--------+
+| BS Geography & BS Earth Science, Salisbury University (SU) | 2015   |
++------------------------------------------------------------+--------+
+| - Minor in Statistics                                      |        |
+| - Graduated Cum Laude                                      |        |
++------------------------------------------------------------+--------+
 
-University of British Columbia, 2022. Dissertation: 
+: {tbl-colwidths="[90,10]"}
 
-::: {.content-hidden when-format="pdf"}
+# Employment
 
-@skeeter_using_2022
++----------------------------------------------------------:+---------------:+
+| 											                |                |
++===========================================================+===============:+
+| Postdoctoral, UBC Micrometeorolgy                         | 2022 - Present |
++-----------------------------------------------------------+----------------+
+| Sessional Instructor, UBC Geography Department            | 2020 - Present |
++-----------------------------------------------------------+----------------+
+| Sessional Instructor, UBC Geography Department            | 2020 - Present |
++-----------------------------------------------------------+----------------+
+| Graduate Academic Assistant, UBC Library Research Commons | 2020 - 2022    |
++-----------------------------------------------------------+----------------+
+| Graduate Academic Assistant, Vancouver Summer Program UBC | 2020 - 2022    |
++-----------------------------------------------------------+----------------+
+| Teaching Academic Assistant, UBC Geography Department     | 2015 - 2020    |
++-----------------------------------------------------------+----------------+
+| Research Assistant, USC Geography Department              | 2013 - 2015    |
++-----------------------------------------------------------+----------------+
+| Lab Assistant & Tutor, SU Geography Department            | 2013 - 2015    |
++-----------------------------------------------------------+----------------+
 
-:::
-
-## MSc in Geography
-
-University of South Carolina, 2015. Thesis: 
-
-::: {.content-hidden when-format="pdf"}
-
-@skeeter_ammonium_2015
-
-:::
-
-## BS in Geography & BS in Earth Science
-
-Salisbury University, 2013, Graduated Cum Laude
+: {tbl-colwidths="[80,20]"}
 
 # Publications
 
@@ -130,248 +147,67 @@ Salisbury University, 2013, Graduated Cum Laude
 :::
 
 
-# Current Appointments
+# Technical Skills 
 
 
++:-------------------------------+:-------------------------------+:------------------------+
+| Field & Research Methods       | Programming & Markup Languages | Software & Applications |
++:===============================+:===============================+:========================+
+| - Eddy Covariance              | - Python                       | - Git & GitHub          |
+| - Footprint Modelling          | - Javascript                   | - ArcGIS Pro & QGIS     |
+| - Flux Chamber Sampling        | - Matlab                       | - Google Earth Engine   |
+| - Drone Surveying              | - R                            | - Mapbox API            |
+| - Machine Learning             | - HTML                         | - Loggernet             |
+| - Image Classification         | - Markdown                     | - Eddy Pro              |
+|                                |                                | - Quarto                |
++--------------------------------+--------------------------------+-------------------------+
 
+: {tbl-colwidths="[33,33,33]"}
 
-<div class="block">
+# Volunteer Work and Committee Positions
 
-<h2>Technical Skills</h2>
++-----------------------------------------------------------:+---------------:+
+| 											                 |                |
++============================================================+===============:+
+| Western Director, {{< var CSFAM >}}                        | 2023 - Present |
++------------------------------------------------------------+----------------+
+| {{< var PID >}}                                            | 2020 - Present |
++------------------------------------------------------------+----------------+
+| Graduate Committee Representative, UBC Geography           | 2019 - 2020    |
++------------------------------------------------------------+----------------+
+| Climate Consultant, EcoMeet App                            | 2019           |
++------------------------------------------------------------+----------------+
+| Co-chair, UBC Geography Graduate Student Association       | 2018 - 2018    |
++------------------------------------------------------------+----------------+
+| USC Geography Departmental Outreach Committee              | 2018 - 2018    |
++------------------------------------------------------------+----------------+
 
-<table>
-	<colgroup>
-		<col span="1" width="33.3%">
-		<col span="1" width="33.3%">
-		<col span="1" width="33.3%">
-	</colgroup>
-		<tr>
-		<td><h4><u>Field & Research Methods</u></h4></td>
-		<td><h4><u>Software & Application</u></h4></td>
-		<td><h4><u>Programming/Markup Languages</u></h4></td>
-	</tr>
-	<tr>
-		<td>
-			<ul>
-				<li>Eddy Covariance Installation & Maintenance</li>
-				<li>Flux Data Processing & Footprint Modelling</li>
-				<li>Machine Learning</li>
-				<li>Spatial Analysis</li>
-				<li>Drone Surveying</li>
-				<li>Image Classification</li>
-			</ul>
-		</td>
-		<td>
-			<ul>
-				<li>Git, GitHub, & GitHub Pages</li>
-				<li>ArcGIS Pro</li>
-				<li>QGIS</li>
-				<li>Google Earth Engine</li>
-				<li>MapBox & GLJS</li>
-				<li>Open Drone Map</li>
-				<li>Reveal JS</li>
-				<li>Eddy Pro & Smart Flux</li>
-			</ul>
-		</td>
-		<td>
-			<ul>
-				<li>Python</li>
-				<li>JavaScript</li>
-				<li>R</li>
-				<li>Matlab</li>
-				<li>Bash</li>
-				<li>Markdown / R Markdown</li>
-				<li>HTML</li>
-				<li>CSS</li>
-			</ul>
-		</td>	
-	</tr>
+: {tbl-colwidths="[80,20]"}
 
-</table>
+# Awards
 
-<div class="block">
-	
-<h2>Employment History</h2>
-<table class="col3-right">
-	<colgroup>
-		<col span="1" width="30%"><col span="1" width="55%"><col span="1" width="15%">
-	</colgroup>
-	<tr>
-		<td>Graduate Academic Assistant</td>
-		<td>Workshop Creator and GIS Consultant, UBC Library Research Commons</td>
-		<td>2020 – 2022</td>
-	</tr>
-	<tr>
-		<td>Graduate Academic Assistant</td>
-		<td>Chapter Author, Open Source Geomatics Textbook, University of British Columbia Forestry Department</td>
-		<td>2021</td>
-	</tr>
-	<tr>
-		<td>Teaching Assistant</td>
-		<td>Introduction to GIS; Remote Sensing; Air Pollution Meteorology; Atmospheric Environments; State of the Earth; Our Changing Climate and Environment, University of British Columbia Geography Department</td>
-		<td>2015-2020</td>
-	</tr>
-	<tr>
-		<td>Field Assistant</td>
-		<td>Data Collection and Site Maintenance at Burns Bog, University of British Columbia Geography Department</td>
-		<td>2020</td>
-	</tr>
-	<tr>
-		<td>Graduate Academic Assistant</td>
-		<td>GIS Instructor, Vancouver Summer Program University of British Columbia</td>
-		<td>2019</td>
-	</tr>
-	<tr>
-		<td>Research Assistant</td>
-		<td>LIDAR Operation and Dispersion Modelling, University of South Carolina</td>
-		<td>2013-2015</td>
-	</tr>
-	<tr>
-		<td>Lab Assistant & Tutor</td>
-		<td>Undergraduate Lab Supervising; Tutoring in Earth Science and Weather and Climate courses, Salisbury University Department of Geography and Geosciences</td>
-		<td>2012-2013</td>
-	</tr>
-</table>
++-----------------------------------------------------------:+------------:+
+| 											                 |             |
++============================================================+============:+
+| Open Educational Resource Champion, UBC Alma Mater Society | 2022        |
++------------------------------------------------------------+-------------+
+| Four-year Doctoral Fellowship, UBC                         | 2015 - 2019 |
++------------------------------------------------------------+-------------+
+| Graduate Assistanceship Award, UBC                         | 2013 - 2015 |
++------------------------------------------------------------+-------------+
+| Presidential Scholarship, SU                               | 2009 - 2013 |
++------------------------------------------------------------+-------------+
+| {{< var AAG >}} World Geography Bowls                      | 2009 - 2013 |
++------------------------------------------------------------+-------------+
+| - Four-time All Star Team Member, Middle Atlantic Division |             |
++------------------------------------------------------------+-------------+
+| Outstanding Graduating Senior Award, SU Geography          | 2013        |
++------------------------------------------------------------+-------------+
+| Outstanding Academic Achievement Award, SU Geography       | 2013        |
++------------------------------------------------------------+-------------+
+| 1st Place Student Paper {{< var MADAAG >}} Annual Meeting  | 2012        |
++------------------------------------------------------------+-------------+
+| Donald Lee Schul Jr. Memorial Wrestling Scholarship, SU    | 2009        |
++------------------------------------------------------------+-------------+
 
-</div>
-
-<div class="block">
-
-<h2>Volunteering, Speaking Events, & Committee Positions</h2>
-
-<table class="col3-right">
-<colgroup>
-	<col span="1" width="30%"><col span="1" width="55%"><col span="1" width="15%">
-</colgroup>
-
-<tr>
-	<td>Primary Researcher</td>
-	<td><a href="https://police-involved-deaths-ca.github.io/Data/">Police Involved Deaths in Canada</a>, Tracking and Mapping Police Violence in Canada</td>
-	<td>2020-2022</td>
-</tr>
-<tr>
-	<td>Stack Overflow Contributor</td>
-	<td>Python and GIS Help, <a href="https://stackoverflow.com/users/5683778/june-skeeter">My Profile</a></td>
-	<td>2016-Present</td>
-</tr>
-<tr>
-	<td>Guest Speaker</td>
-	<td>University of British Columbia Geography Department Undergraduate Events: GIS Cohort Event, Majors Tea</td>
-	<td>2021 & 2022</td>
-</tr>
-<tr>
-	<td>Graduate Committee Representative</td>
-	<td>University of British Columbia Geography Department</td>
-	<td>2019-2020</td>
-</tr>
-<tr>
-	<td>Climate Consultant</td>
-	<td>EcoMeet App</td>
-	<td>2019</td>
-</tr>
-<tr>
-	<td>Co-chair, Geography Graduate Association</td>
-	<td>University of British Columbia Geography Department</td>
-	<td>2018-2019</td>
-</tr>
-<tr>
-	<td>Geography Bowl Question Contributor</td>
-	<td>Middle Atlantic Division of the Association of American Geographers</td>
-	<td>2018, 2016</td>
-</tr>
-<tr>
-	<td>Departmental Outreach Committee</td>
-	<td>University of South Carolina Geography Department</td>
-	<td>2014-2015</td>
-</tr>
-</table>
-</div>
-
-<div class="block">
-<h2>Awards</h2>
-
-<table class="col3-right">
-<colgroup>
-	<col span="1" width="30%"><col span="1" width="55%"><col span="1" width="15%">
-</colgroup>
-
-<tr>
-	<td>Open Educational Resource Champion</td>
-	<td>University of British Columbia</td>
-	<td>2022</td>
-</tr>
-<tr>
-	<td>Four-year Doctoral Fellowship</td>
-	<td>University of British Columbia</td>
-	<td>2015-2019</td>
-</tr>
-<tr>
-	<td>Graduate Assistanceship Award</td>
-	<td>University of South Carolina Geography Department</td>
-	<td>2013-2015</td>
-</tr>
-<tr>
-	<td>Presidential Scholarship</td>
-	<td>Salisbury University</td>
-	<td>2009-2013</td>
-</tr>
-<tr>
-	<td>Eugene D. and Ethel Farace Outstanding Graduating Senior Award</td>
-	<td>Salisbury University Department of Geography and Geosciences</td>
-	<td>2013</td>
-</tr>
-<tr>
-	<td>Outstanding Academic Achievement Award</td>
-	<td>Salisbury University Department of Geography and Geosciences</td>
-	<td>2013</td>
-</tr>
-<tr>
-	<td>Dean’s List</td>
-	<td>Salisbury University, Spring 2013; Fall 2012; Fall 2011; Spring 2010; Fall 2009</td>
-	<td>2009-2013</td>
-</tr>
-
-
-<tr>
-	<td>Association of American Geographers (AAG) World Geography Bowls</td>
-	<td>Four-Time Middle Atlantic Division All Star Team Member, 2nd Place Team: 2013 & 2011; 3rd Place Team: 2012; 7th Place Individual Score: 2012</td>
-	<td>2010-2013</td>
-</tr>
-
-<tr>
-	<td>Middle Atlantic Division AAG Regional Geography Bowls</td>
-	<td>Four-Time Team Captain, 2nd Place Team: 2010-2012; 1st Place Team: 2009; 1st Place Individual Score: 2011 & 2009</td>
-	<td>2009-2012</td>
-</tr>
-
-<tr>
-	<td>1st Place Student Paper Competition</td>
-	<td>Joint Annual Meeting of the Pennsylvania Geographical Society and the Middle Atlantic Division of the AAG</td>
-	<td>2012</td>
-</tr>
-
-<tr>
-	<td>Guerrieri Summer Research Grant</td>
-	<td>Salisbury University</td>
-	<td>2012</td>
-</tr>
-
-<tr>
-	<td>Gamma Theta Upsilon</td>
-	<td>Inducted to the International Geographical Honor Society</td>
-	<td>2011</td>
-</tr>
-<tr>
-	<td>National Science Foundation Bridges Summer Research Grant</td>
-	<td>Salisbury University</td>
-	<td>2011</td>
-</tr>
-<tr>
-	<td>Donald Lee Schul Jr. Memorial Wrestling Scholarship</td>
-	<td>Salisbury University</td>
-	<td>2009</td>
-</tr>
-</table>
-
-</div>
-</body>
+: {tbl-colwidths="[80,20]"}

@@ -1,7 +1,5 @@
 ---
-title: "Make your own site!"
+title: "Make your own website!"
 ---
-
-Hi!
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.

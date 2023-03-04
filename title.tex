@@ -3,13 +3,13 @@
 }
 \author{
   $for(by-author)$
-    {$by-author.name.literal$ 
+    {$by-author.name.literal$ }
     \authorcr % Use to make new line in author block
     $by-author.metadata.pronouns$
     \authorcr
-    $by-author.phone$
+    $if(by-author.phone)${$by-author.phone$}{}$endif$
     \authorcr
-    $if(by-author.email)$\href{mailto:$by-author.email$}{$by-author.email$}$endif$}
+    $if(by-author.email)$\href{mailto:$by-author.email$}{$by-author.email$}$endif$
     \authorcr
     $if(by-author.url)$\href{$by-author.url$}{$by-author.url$}$endif$
     
@@ -23,7 +23,7 @@
     $endfor$
   $endfor$}
 
-\date{$date$}
+\date{\today}
 
 
 % $by-author.pronouns$ \\

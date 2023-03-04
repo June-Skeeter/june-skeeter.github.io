@@ -2,6 +2,8 @@
 title: "About Me"
 ---
 
-Hi!
+Hi! I'm Dr. June Skeeter.  I am a geospatial data scientist and educator who is passionate about social and environmental justice. 
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I'm fluent in Python and proficient a number of other languages including JavaScript, Matlab, . 
+
+I am a data scientist and GIS expert who is fluent in Python and working on teaching myself javascript. My research interests are broad. I focus on using GIS, machine-learning, remote sensing, and census data to address issues ranging from climate change to police violence. I prefer to work with open source software whenever possible. Accessibility of information, transparency of data analysis, and free use of tools are central to my pedagogical philosophy and personal research practices.
