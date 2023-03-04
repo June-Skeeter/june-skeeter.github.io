@@ -8,6 +8,7 @@
 
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
+\usepackage{setspace}
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
@@ -17,6 +18,7 @@
   \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+  \setmainfont[]{TeX Gyre Bonum}
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -177,14 +179,9 @@
     \authorcr
     \href{mailto:june.skeeter@ubc.ca}{june.skeeter@ubc.ca}}
     \authorcr
-    \href{https://github.com/June-Skeeter}{https://github.com/June-Skeeter}
+    \href{https://june-skeeter.github.io/}{https://june-skeeter.github.io/}
     
 
-          University of British Columbia
-      \authorcr
-      Department of Geography
-      \authorcr
-      Vancouver, BC 
       }
 
 \date{}
@@ -193,30 +190,26 @@
 %  \\
 \begin{document}
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, breakable, enhanced, interior hidden, sharp corners]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, interior hidden, borderline west={3pt}{0pt}{shadecolor}, sharp corners, frame hidden, boxrule=0pt, breakable]}{\end{tcolorbox}}\fi
+
+\setstretch{1.25}
+\hypertarget{current-positions}{%
+\section{Current Positions}\label{current-positions}}
+
+Postdoctoral Researcher, UBC Micrometeorolgy group, 2023
+
+Sessional Instructor, Geographic Information Systems (GEOS 270), UBC
+Geography Department, 2020-Present
 
 \hypertarget{education}{%
 \section{Education}\label{education}}
 
-PhD Geography, University of British Columbia, 2022 Thesis: ``Using
-Machine Learning to Identify and Map Controls of Growing-Season Carbon
-Dioxide and Methane Fluxes in the Mackenzie Delta Region''
+\hypertarget{phd-in-geography}{%
+\subsection{PhD in Geography}\label{phd-in-geography}}
 
-J. Skeeter (2022)
+University of British Columbia, 2022. Dissertation:
 
-MSc. Geography University of South Carolina, 2015 Thesis: ``Ammonium
-Concentrations Above a Louisiana Sugarcane Field''
-
-B.S. Geography, B.S Earth Science, and Minor in Statistics, Salisbury
-University 2013 Graduated Cum Laude
-
-W. Skeeter (2015)
-
-\hypertarget{bibliography-1}{%
-\subsection*{References}\label{bibliography-1}}
-\addcontentsline{toc}{subsection}{References}
-
-\hypertarget{refs-1}{}
+\hypertarget{refs-2.1}{}
 \begin{CSLReferences}{1}{0}
 \leavevmode\vadjust pre{\hypertarget{ref-skeeter_using_2022}{}}%
 Skeeter, J. (2022). \emph{Using machine learning to identify and map
@@ -224,29 +217,36 @@ controls of growing-season carbon dioxide and methane fluxes in the
 {Mackenzie} {Delta} region} (PhD thesis). University of British
 Columbia. \url{https://doi.org/10.14288/1.0421939}
 
+\end{CSLReferences}
+
+\hypertarget{msc-in-geography}{%
+\subsection{MSc in Geography}\label{msc-in-geography}}
+
+University of South Carolina, 2015. Thesis:
+
+\hypertarget{refs-2.2}{}
+\begin{CSLReferences}{1}{0}
 \leavevmode\vadjust pre{\hypertarget{ref-skeeter_ammonium_2015}{}}%
-Skeeter, W. (2015, January). Ammonium {Concentrations} {Above} a
+Skeeter, J. (2015, January). Ammonium {Concentrations} {Above} a
 {Louisiana} {Sugarcane} {Field}. Retrieved from
 \url{https://scholarcommons.sc.edu/etd/3157}
 
 \end{CSLReferences}
 
+\hypertarget{bs-in-geography-bs-in-earth-science}{%
+\subsection{BS in Geography \& BS in Earth
+Science}\label{bs-in-geography-bs-in-earth-science}}
+
+Salisbury University, 2013, Graduated Cum Laude
+
+\hypertarget{publications}{%
+\section{Publications}\label{publications}}
+
 \hypertarget{peer-reviewed}{%
-\section{Peer Reviewed}\label{peer-reviewed}}
+\subsection{Peer Reviewed}\label{peer-reviewed}}
 
-\hypertarget{bibliography-2}{%
-\subsection*{References}\label{bibliography-2}}
-\addcontentsline{toc}{subsection}{References}
-
-\hypertarget{refs-2}{}
+\hypertarget{refs-3.1}{}
 \begin{CSLReferences}{1}{0}
-\leavevmode\vadjust pre{\hypertarget{ref-skeeter_vegetation_2020}{}}%
-Skeeter, J., Christen, A., Laforce, A.-A., Humphreys, E., \& Henry, G.
-(2020). Vegetation influence and environmental controls on greenhouse
-gas fluxes from a drained thermokarst lake in the western {Canadian}
-{Arctic}. \emph{Biogeosciences}, \emph{17}(17), 4421--4441.
-\url{https://doi.org/10.5194/bg-17-4421-2020}
-
 \leavevmode\vadjust pre{\hypertarget{ref-skeeter_controls_2022}{}}%
 Skeeter, June, Christen, A., \& Henry, G. H. R. (2022). Controls on
 carbon dioxide and methane fluxes from a low-center polygonal peatland
@@ -254,39 +254,38 @@ in the {Mackenzie} {River} {Delta}, {Northwest} {Territories}.
 \emph{Arctic Science}, \emph{8}(2), 471--497.
 \url{https://doi.org/10.1139/as-2021-0034}
 
-\leavevmode\vadjust pre{\hypertarget{ref-skeeter_using_2013}{}}%
-Skeeter, W. R. (2013). Using {Radar} {Composites} to {Detect}
-{Variances} in {Precipitation} from {Cold} {Fronts} {Across} the
-{Chesapeake} {Bay}: {April} {Through} {October} from 1997 to 2011.
-\emph{PENNSYLVANIA GEOGRAPHER}, \emph{51}(1), 73--86.
+\leavevmode\vadjust pre{\hypertarget{ref-skeeter_vegetation_2020}{}}%
+Skeeter, J., Christen, A., Laforce, A.-A., Humphreys, E., \& Henry, G.
+(2020). Vegetation influence and environmental controls on greenhouse
+gas fluxes from a drained thermokarst lake in the western {Canadian}
+{Arctic}. \emph{Biogeosciences}, \emph{17}(17), 4421--4441.
+\url{https://doi.org/10.5194/bg-17-4421-2020}
 
 \leavevmode\vadjust pre{\hypertarget{ref-skeeter_fog_2016}{}}%
-Skeeter, Wesley R., Parnell, D. B., \& Skeeter, B. R. (2016). A {Fog}
+Skeeter, J., Parnell, D. B., \& Skeeter, B. R. (2016). A {Fog}
 {Climatology} of the {Delmarva} {Peninsula}. \emph{The Geographical
 Bulletin}, \emph{57}(2), 65--75. Retrieved from
 \url{https://www.proquest.com/docview/1845101484/abstract/A0CE794EC54E4E8BPQ/1}
 
+\leavevmode\vadjust pre{\hypertarget{ref-skeeter_using_2013}{}}%
+Skeeter, June. (2013, April 11). Using {Radar} {Composites} to {Detect}
+{Variances} in {Precipitation} from {Cold} {Fronts} {Across} the
+{Chesapeake} {Bay}: {April} through {October} from 1997 to 2012.
+Research talk presented at the Association of American Geographers
+annual meeting, Los Angeles CA.
+
 \end{CSLReferences}
 
-\hypertarget{in-prep}{%
-\section{In Prep}\label{in-prep}}
-
 \hypertarget{book-chapter}{%
-\section{Book chapter}\label{book-chapter}}
+\subsection{Book chapter}\label{book-chapter}}
 
-Skeeter \& Pickell (2022)
-
-\hypertarget{bibliography-4}{%
-\subsection*{References}\label{bibliography-4}}
-\addcontentsline{toc}{subsection}{References}
-
-\hypertarget{refs-4}{}
+\hypertarget{refs-3.2}{}
 \begin{CSLReferences}{1}{0}
 \leavevmode\vadjust pre{\hypertarget{ref-skeeter_chapter_2022}{}}%
 Skeeter, J., \& Pickell, paul. (2022). Chapter 3 {Data} {Types} and
 {Spatial} {Data} {Models}. In \emph{Geomatics for {Environmental}
 {Management}: {An} {Open} {Textbook} for {Students} and
-{Practitioners}}. Retrieved from
+{Practitioners}}. University of British Columbia. Retrieved from
 \url{https://www.opengeomatics.ca/types-of-data.html\#reflection-questions-2}
 
 \end{CSLReferences}
@@ -294,22 +293,144 @@ Skeeter, J., \& Pickell, paul. (2022). Chapter 3 {Data} {Types} and
 \hypertarget{presentations}{%
 \section{Presentations}\label{presentations}}
 
-\hypertarget{jargon}{%
-\section{Jargon}\label{jargon}}
+\hypertarget{research-talks}{%
+\subsection{Research Talks}\label{research-talks}}
 
-Current Appointments
+\hypertarget{refs-4.1}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-skeeter_compiling_2021}{}}%
+Skeeter, J. (2021, October 29). Compiling and {Mapping} {Police}
+{Involved} {Deaths}: {Systemic} {Racism} in {Canadian} {Policing}.
+Research talk presented at the Western Association of Map Librarians
+annual meeting, Vancouver BC.
 
-Postdoctoral Researcher
+\leavevmode\vadjust pre{\hypertarget{ref-skeeter_police_2021}{}}%
+Skeeter, J. (2021, April 7). Police {Killings} and {Systemic} {Racism}
+in {Canadian} {Policing}. Research talk at presented at the Association
+of American Geographers annual meeting, *virtual.
 
-UBC Geography Department Micrometeorolgy
+\leavevmode\vadjust pre{\hypertarget{ref-ahmed_how_2019}{}}%
+Ahmed, M., \& Skeeter, J. (2019, October 10). How {Can} {I} {Reduce}
+{My} {Carbon} {Footprint}? Presented at the EcoCity World Summit,
+Vancouver BC.
 
-2023
+\leavevmode\vadjust pre{\hypertarget{ref-skeeter_vegetation_2017}{}}%
+Skeeter, J. (2017, May 30). Vegetation {Influence} and {Environmental}
+{Controls} on {Greenhouse} {Gas} {Fluxes} from a {Drained} {Thermokarst}
+{Lake} in the {Mackenzie} {River} {Delta}, {NWT}. Research talk
+presented the annual meeting of the Canadian Geophysical Union, May
+30th, 2017, Vancouver BC.
 
-Sessional Instructor
+\leavevmode\vadjust pre{\hypertarget{ref-skeeter_greenhouse_2017}{}}%
+Skeeter, J. (2017, July 8). Greenhouse {Gas} {Exchange} in the {Outer}
+{Mackenzie} {Delta}. Research talk presented at the Aurora Research
+Institute Summer Speakers Series, Inuvik, NT.
 
-Geographic Information Systems (GEOS 270), UBC Geography Department
+\leavevmode\vadjust pre{\hypertarget{ref-skeeter_growing_2017}{}}%
+Skeeter, J. (2017, December 13). Growing {Season} {Carbon} {Balance} of
+a {Mackenzie} {River} {Delta} {Peatland}. Research talk presented at the
+ArcticNet conference, Quebec City, QC.
 
-2020-Present
+\leavevmode\vadjust pre{\hypertarget{ref-skeeter_carbon_2016}{}}%
+Skeeter, J. (2016, December 7). Carbon {Dioxide} and {Methane} fluxes at
+{Illisarvik} 2016. Poster presentated at ArcticNet conference,
+Whinnipeg, MB.
+
+\leavevmode\vadjust pre{\hypertarget{ref-skeeter_identifying_2014-1}{}}%
+Skeeter, J. (2014, May 12). Identifying {Source} {Areas} of {Ammonium}
+{Concentrations} {Sampled} {Above} a {Louisiana} {Sugarcane} {Field}.
+Research talk presented at the 31st Conference on Agricultural and
+Forest Meteorology, Portland OR.
+
+\leavevmode\vadjust pre{\hypertarget{ref-skeeter_identifying_2014-2}{}}%
+Skeeter, J. (2014, April 8). Identifying {Source} {Areas} of {Ammonium}
+{Concentrations} {Sampled} {Above} a {Louisiana} {Sugarcane} {Field}.
+Research talk presented at the Association of American Geographers
+annual meeting, Tampa FL.
+
+\leavevmode\vadjust pre{\hypertarget{ref-skeeter_fog_2013}{}}%
+Skeeter, J. (2013, April 26). Fog {Climatology} of {Salisbury}, {MD}.
+Research talk presented at the Salisbury University Student Research
+Conference, Salisbury MD.
+
+\leavevmode\vadjust pre{\hypertarget{ref-skeeter_using_2013}{}}%
+Skeeter, J. (2013, April 11). Using {Radar} {Composites} to {Detect}
+{Variances} in {Precipitation} from {Cold} {Fronts} {Across} the
+{Chesapeake} {Bay}: {April} through {October} from 1997 to 2012.
+Research talk presented at the Association of American Geographers
+annual meeting, Los Angeles CA.
+
+\leavevmode\vadjust pre{\hypertarget{ref-skeeter_using_2012-2}{}}%
+Skeeter, J. (2012, November 3). Using {Radar} {Composites} {Created} in
+{Model} {Builder} to {Perform} {Statistical} {Analyses} of {Cold}
+{Frontal} {Precipitation} {Events} in the {Chesapeake} {Bay} {Region}:
+{April} through {October} 1997-2011. Research talk presented at the
+joint annual meeting of the Pennsylvania Geographical Society and the
+Middle Atlantic Division of the Association of American Geographers,
+Salisbury MD.
+
+\end{CSLReferences}
+
+\hypertarget{guest-lectures}{%
+\subsection{Guest Lectures}\label{guest-lectures}}
+
+\hypertarget{refs-4.2}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-skeeter_remote_2022}{}}%
+Skeeter, J. (2022, March). Remote {Sensing} in {Atmospheric} {Sciences}.
+Guest lecture, GEOS 373, Vancouver BC.
+
+\leavevmode\vadjust pre{\hypertarget{ref-skeeter_data_2020}{}}%
+Skeeter, J. (2020, November). Data {Normalization} \& {Classification}:
+{Police} {Violence} in {North} {America}. Guest lecture, GEOS 270,
+Vancouver BC.
+
+\leavevmode\vadjust pre{\hypertarget{ref-skeeter_remote_2020}{}}%
+Skeeter, J. (2020, November). Remote {Sensing} in {Atmospheric}
+{Sciences}. Guest lecture, GEOS 373, Vancouver BC.
+
+\end{CSLReferences}
+
+\hypertarget{poster-presentations}{%
+\subsection{Poster Presentations}\label{poster-presentations}}
+
+\hypertarget{refs-4.3}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-skeeter_growing_2018}{}}%
+Skeeter, J. (2018, April 10). Growing {Season} {Carbon} {Balance} of a
+{Permafrost} {Peatland} in the {Mackenzie} {River} {Delta}. Poster
+presented at European Geophysical Union annual meeting, Vienna, AT.
+
+\leavevmode\vadjust pre{\hypertarget{ref-skeeter_carbon_2016}{}}%
+Skeeter, J. (2016, December 7). Carbon {Dioxide} and {Methane} fluxes at
+{Illisarvik} 2016. Poster presentated at ArcticNet conference,
+Whinnipeg, MB.
+
+\leavevmode\vadjust pre{\hypertarget{ref-skeeter_source_2014}{}}%
+Skeeter, J. (2014, November 24). Source {Areas} of {Ammonium} {Sampled}
+{Above} a {Louisiana} {Sugarcane} {Field}. Poster presentated at the
+South Eastern Division of the Association of American Geographers annual
+meeting, Roanoke VA.
+
+\leavevmode\vadjust pre{\hypertarget{ref-skeeter_using_2012-1}{}}%
+Skeeter, J. (2012, November 19). Using {Radar} {Composites} {Created} in
+{Model} {Builder} to {Perform} {Statistical} {Analyses} of {Cold}
+{Frontal} {Precipitation} {Events} in the {Chesapeake} {Bay} {Region}:
+{April} through {October} 1997-2011. Poster presented at the South
+Eastern Division of the Association of American Geographers annual
+meeting, Asheville NC.
+
+\leavevmode\vadjust pre{\hypertarget{ref-skeeter_possible_2011}{}}%
+Skeeter, J. (2011, October 28). The {Possible} {Differing} {Influence}
+of the {Chesapeake} {Bay} on {Frontal} and {Squall} {Line}
+{Precipitation} {Events} ({April}-{October}). Poster presentated at the
+Middle Atlantic Division of the Association of American Geographers
+annual meeting, College Park MD.
+
+\end{CSLReferences}
+
+\hypertarget{current-appointments}{%
+\section{Current Appointments}\label{current-appointments}}
 
 Technical Skills
 
@@ -356,20 +477,6 @@ Technical Skills
     </td>   
 </tr>
 \end{verbatim}
-
-Presentations \& Lectures
-
-``Remote Sensing in Atmospheric Sciences'', Guest Lecturer, University
-of British Columbia Department of Geography, GEOB 373 Remote Sensing,
-March 2022
-
-``Data Normalization \& Classification: Police Violence in North
-America'', Guest Lecturer, University of British Columbia Department of
-Geography, GEOB 270 Geographic Information Science, November 2020
-
-``Remote Sensing in Atmospheric Sciences'', Guest Lecturer, University
-of British Columbia Department of Geography, GEOB 373 Remote Sensing,
-November 2020
 
 Employment History
 

@@ -660,10 +660,11 @@
       </if>
     </choose>
   </macro>
-  <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true" collapse="year" givenname-disambiguation-rule="primary-name">
+  <!-- Set disambiguate-add-year-suffix to "false" -->
+  <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="false" disambiguate-add-names="true" disambiguate-add-givenname="true" collapse="year" givenname-disambiguation-rule="primary-name">
     <sort>
-      <key macro="author"/>
       <key macro="issued-sort"/>
+      <key macro="author"/>
     </sort>
     <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=", ">
@@ -675,10 +676,11 @@
   </citation>
   <bibliography hanging-indent="true" et-al-min="8" et-al-use-first="6" entry-spacing="0" line-spacing="2">
     <sort>
+    <!-- JS - changed order to work for CV sort by date descending before anything else-->
+      <key macro="issued-sort" sort="descending"/>
       <key macro="author" names-min="1" names-use-first="1"/>
       <key macro="author-count" names-min="3" names-use-first="3"/>
       <key macro="author" names-min="3" names-use-first="1"/>
-      <key macro="issued-sort"/>
       <key macro="title"/>
     </sort>
     <layout>

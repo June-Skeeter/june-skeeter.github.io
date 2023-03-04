@@ -4,7 +4,7 @@
     "href": "ReadMe.html",
     "title": "AboutMe",
     "section": "",
-    "text": "This should mostly work as is, provided you have quarto and xelatex installed. But you will also want to install the quarto package Section Bibliographies Filter"
+    "text": "This should mostly work as is, provided you have quarto and xelatex installed. But you will also want to install the quarto package Section Bibliographies Filter\nChanged sort order for .csl to"
   },
   {
     "objectID": "Make_a_Site.html",
