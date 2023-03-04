@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "ReadMe.html",
-    "href": "ReadMe.html",
-    "title": "AboutMe",
-    "section": "",
-    "text": "This should mostly work as is, provided you have quarto and xelatex installed. But you will also want to install the quarto package Section Bibliographies Filter\nChanged sort order for .csl to"
-  },
-  {
     "objectID": "Make_a_Site.html",
     "href": "Make_a_Site.html",
     "title": "Make your own website!",
@@ -18,7 +11,7 @@
     "href": "index.html",
     "title": "About Me",
     "section": "",
-    "text": "Hi! I’m Dr. June Skeeter. I am a geospatial data scientist and educator currently working at the University of British Columbia.\nI’m fluent in Python and proficient a number of other languages including JavaScript, Matlab, .\nI am a data scientist and GIS expert who is fluent in Python and working on teaching myself javascript. My research interests are broad. I focus on using GIS, machine-learning, remote sensing, and census data to address issues ranging from climate change to police violence. I prefer to work with open source software whenever possible. Accessibility of information, transparency of data analysis, and free use of tools are central to my pedagogical philosophy and personal research practices."
+    "text": "Hi! I’m Dr. June Skeeter. I am a researcher and educator currently working at the University of British Columbia. I specialize in micrometeorology, geospatial data science, and machine learning methods. I’m a fluent Python programmer with functional proficiency in a number of other languages including JavaScript and Matlab. I prefer to work with open source options whenever possible because accessibility of information, transparency in data analysis, and minimizing barriers to access are central to my pedagogical philosophy and personal research practices. I’ve created this website to highlight some of my work and provide a template that others can use to make their own website!"
   },
   {
     "objectID": "projects.html",
