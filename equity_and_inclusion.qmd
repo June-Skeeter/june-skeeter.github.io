@@ -1,0 +1,32 @@
+---
+title: "Equity, Diversity, and Inclusion Statement"
+
+format: 
+  pdf:
+    template-partials: 
+      - title.tex
+    mainfont: TeX Gyre Bonum
+    linestretch: 1.25
+    include-in-header:
+      text: |
+        \usepackage[blocks]{authblk}
+        \usepackage[a4paper,total={170mm,257mm}, top=20mm, left=20mm]{geometry}
+---
+
+When discussing discrimination against transgender community, the poet Alok Vaid Menon said: "It's never been about comprehension, it's been about compassion".  Acts of discrimination and violence may be committed by individuals, but they are systemic issues rooted in a culture that does not prioritize empathy.  As a non-binary person, I have some personal insight into how exclusive our society can be and it heartens me to know I am in a position to provide some of the representation to my students and colleagues that I my younger self missed out on.  
+
+At the same time, my white privilege precludes me from fully understanding the challenges my BIPOC colleagues and students face.  While I many not comprehend, I can leverage my privilege and platform as an researcher and educator to help elevate others and work towards building a more compassionate world.  I try to center this intention in my work.  Marginalized people need to be empowered, uplifted, and given the support they need to succeed.  Further, those who are not marginalized need to be made aware of the systemic injustices that permeate the fabric of our society and be encouraged contemplate their positionality to help breakdown their prejudices build their capacity for empathy.
+
+Some ways I have been approaching this task in my work include: 
+
+* Centering discussions of ethical practices in the sciences and emphasizing that the choices we make as practitioners, intended or otherwise, can have drastic impacts on peoples lives.
+* Teaching about the history of the cartography and how it has been used as a tool of oppression in my GIS course.
+* Incorporating Indigenous narratives and examples traditional knowledge into my course material.
+* Offering flexible grading policies, including reduced late penalties and a "one-free-miss" policy for lab assignments.
+* Publishing my course materials Open Educational Resources (OER) to reduce financial barriers for students and facilitate collaboration between instructors.
+* Streaming all of my in-person lectures and posting recording with subtitles.
+* Advocating for gender inclusivity and gender neutral washroom access in my workplace.
+* Openly discussing my past struggles with mental health and encouraging my colleagues and students to prioritize their own mental health.
+* My volunteer work researching police violence in Canada.
+
+In my career, I have worked with a diverse group of people from around the world and I have learned many lessons from them.  I have done my best so far to support an inclusive environment in my workplace and classroom and make my instructional materials accessible to a diverse audience.  But there is always more work to do and I am committed to must pursuing opportunities to listen, learn, and humble myself.  It is my hope that by fostering a culture of empathy, honesty, and critical reflection in my workplaces and classrooms, I can contribute in some small way to making the world a more equitable, diverse, and inclusive place.

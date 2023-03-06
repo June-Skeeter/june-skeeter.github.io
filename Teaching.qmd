@@ -1,0 +1,60 @@
+---
+title: "Course Syllabus and Evidence of Teaching Effectiveness"
+
+format: 
+  pdf:
+    template-partials: 
+      - title.tex
+    mainfont: TeX Gyre Bonum
+    linestretch: 1.25
+    include-in-header:
+      text: |
+        \usepackage[blocks]{authblk}
+        \usepackage[a4paper,total={170mm,257mm}, top=20mm, left=20mm]{geometry}
+        
+  html:
+    code-fold: true
+    
+jupyter: python3
+---
+
+# GEOS 270 Course Syllabus
+
+I have published all of my course material for GEOS 270 as an Open Educational Resource (OER) on Github.  The syllabus can be found here: <a href="https://geos270.github.io/Syllabus/">https://geos270.github.io/Syllabus/</a>.  The course webpage has links to all of my course content, posted in an openly accessible format.  All content for the term is hyperlinked in the schedule on the course overview page.  I feel this is the most effective, transparent, and accessible way I can provide content for my students.  I find the institutional tools provided by UBC (e.g., Canvas) to be severely lacking in functionality and an obvious barrier to accessibility.  By using Github I can tailor my course webpage as I see fit, prospective students can review this syllabus and other content to see if they might be interested in the course, and students will continue to have access the course content even after they graduate!
+
+
+<div class="head">
+    <h2>Evidence of Teaching Effectiveness</h2>
+</div>
+
+<div class="tab">
+	<p>I have six semesters of experience teaching GOES 270 (7 sections).  I have attached them at the end of this application, listed from most recent to oldest.  Unfortunately, my evaluations for 2021S1 are missing as they were not requested by the department.  Though I believe they would echo the what is shown in the evaluations form other terms.  The wording of the evaluation questions has changed between terms, but one key question has not changed: <b>Considering everything, how would you rate this course?</b>  The chart and table below summarize my student's responses.</p>
+</div>
+
+```{python}
+#| label: fig-evals
+#| echo: false
+#| fig-cap: "Considering everything, how would you rate this course? Summary of Dr. June Skeeter's GEOS 270 teaching evaluations"
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+
+Evals = pd.read_csv("Evaluations/Considering_everything_how_would_you_rate_this_course.csv")
+
+Summary = Evals[['Very Poor','Poor','Neutral','Good','Very Good']].sum()
+Response_Rate = Summary.sum()/Evals['N'].sum()
+Favorability = Evals[['Good','Very Good']].sum().sum()/Summary.sum()
+Terms = Evals['N'].count()
+
+fig,ax = plt.subplots(1,1,figsize=(6,6))
+ax.bar(Summary.index,Summary,facecolor='#dec028',edgecolor='k')
+ax.set_title('''
+ Favorability ('''+str(int(Favorability*100))+''' %); n = '''+str(Summary.sum())+''' responses''')
+ax.grid(axis='y')
+plt.tight_layout()
+plt.savefig('docs/images/CourseRating.png')
+plt.show()
+
+
+```
