@@ -14,7 +14,7 @@ website:
         text: CV
       - href: projects.qmd
         text: Projects
-      - href: Job_Apps/Teaching.qmd
+      - href: Teaching.qmd
         text: Teaching
       - href: Make_a_Site.qmd
         text: How to make your own site!

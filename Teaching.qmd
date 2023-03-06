@@ -27,6 +27,8 @@ I have published all of my course material for GEOS 270 as an Open Educational R
 I have numerous semesters of experience teaching GOES 270, all of my previous teaching evaluations are available [here](https://github.com/June-Skeeter/june-skeeter.github.io/tree/main/Evaluations).  The wording of the evaluation questions has changed between terms, but one key question has not changed: **Considering everything, how would you rate this course?**  The chart and table below summarize my student's responses.
 </div>
 
+::: {.test}
+
 ```{python}
 #| label: fig-evals
 #| echo: false
@@ -37,7 +39,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-Evals = pd.read_csv("../Evaluations/Considering_everything_how_would_you_rate_this_course.csv")
+Evals = pd.read_csv("Evaluations/Considering_everything_how_would_you_rate_this_course.csv")
 
 Summary = Evals[['Very Poor','Poor','Neutral','Good','Very Good']].sum()
 Response_Rate = Summary.sum()/Evals['N'].sum()
@@ -54,3 +56,5 @@ plt.show()
 
 
 ```
+
+:::
