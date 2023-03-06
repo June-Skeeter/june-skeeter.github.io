@@ -11,6 +11,9 @@ format:
       text: |
         \usepackage[blocks]{authblk}
         \usepackage[a4paper,total={170mm,257mm}, top=20mm, left=20mm]{geometry}
+
+  html: 
+    code-fold: true
 ---
 
 When discussing discrimination against transgender community, the poet Alok Vaid Menon said: "It's never been about comprehension, it's been about compassion".  Acts of discrimination and violence may be committed by individuals, but they are systemic issues rooted in a culture that does not prioritize empathy.  As a non-binary person, I have some personal insight into how exclusive our society can be and it heartens me to know I am in a position to provide some of the representation to my students and colleagues that I my younger self missed out on.  

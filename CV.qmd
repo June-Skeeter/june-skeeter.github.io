@@ -19,6 +19,9 @@ format:
         \usepackage[blocks]{authblk}
         \usepackage[a4paper,total={170mm,257mm}, top=20mm, left=20mm]{geometry}
 
+  html: 
+    code-fold: true
+
 bibliography: MyPublications.bib
 section-bibs-bibliography: MyPublications.bib
 filters:
@@ -83,7 +86,9 @@ csl: american-geophysical-union.csl
 
 ## Peer Reviewed
 
-::: {.content-hidden when-format="pdf"}
+::: {.hidden}
+
+<!-- .content-hidden when-format="pdf"} -->
 
 @skeeter_controls_2022
 @skeeter_vegetation_2020
@@ -96,7 +101,7 @@ csl: american-geophysical-union.csl
 
 ## Book chapter
 
-::: {.content-hidden when-format="pdf"}
+::: {.hidden}
 
 @skeeter_chapter_2022
 
@@ -108,7 +113,7 @@ csl: american-geophysical-union.csl
 
 ## Research Talks
 
-::: {.content-hidden when-format="pdf"}
+::: {.hidden}
 
 @skeeter_compiling_2021
 @skeeter_police_2021
@@ -127,7 +132,7 @@ csl: american-geophysical-union.csl
 
 ## Guest Lectures
 
-::: {.content-hidden when-format="pdf"}
+::: {.hidden}
 
 @skeeter_remote_2022
 @skeeter_data_2020
@@ -137,7 +142,7 @@ csl: american-geophysical-union.csl
 
 ## Poster Presentations
 
-::: {.content-hidden when-format="pdf"}
+::: {.hidden}
 
 @skeeter_growing_2018
 @skeeter_carbon_2016
