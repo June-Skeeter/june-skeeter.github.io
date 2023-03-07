@@ -36,21 +36,21 @@ csl: american-geophysical-union.csl
 # Education
 
 +-----------------------------------------------------------:+-------:+
-| 											         		 |        |
+|                                                            |        |
 +============================================================+=======:+
 |PhD Geography, University of British Columbia (UBC)         | 2023   |
 +------------------------------------------------------------+--------+
-| - {{< var Dissertation >}}	  			         		 |        |
+| - {{< var Dissertation >}}                                 |        |
 +------------------------------------------------------------+--------+
 |                                                            |        |
 +------------------------------------------------------------+--------+
 | MsC Geography, University of South Carolina (USC)          | 2015   |
 +------------------------------------------------------------+--------+
-| - {{< var Thesis >}}						         		 |        |
+| - {{< var Thesis >}}	                                     |        |
 +------------------------------------------------------------+--------+
 |                                                            |        |
 +------------------------------------------------------------+--------+
-| BS Geography & BS Earth Science, Salisbury University (SU) | 2015   |
+| BS Geography & BS Earth Science, Salisbury University (SU) | 2013   |
 +------------------------------------------------------------+--------+
 | - Minor in Statistics                                      |        |
 | - Graduated Cum Laude                                      |        |
@@ -61,19 +61,17 @@ csl: american-geophysical-union.csl
 # Employment
 
 +----------------------------------------------------------:+---------------:+
-| 											                |                |
+|                                                           |                |
 +===========================================================+===============:+
-| Postdoctoral, UBC Micrometeorolgy                         | 2022 - Present |
-+-----------------------------------------------------------+----------------+
-| Sessional Instructor, UBC Geography Department            | 2020 - Present |
+| Postdoc, UBC Micrometeorolgy                              | 2022 - Present |
 +-----------------------------------------------------------+----------------+
 | Sessional Instructor, UBC Geography Department            | 2020 - Present |
 +-----------------------------------------------------------+----------------+
 | Graduate Academic Assistant, UBC Library Research Commons | 2020 - 2022    |
 +-----------------------------------------------------------+----------------+
-| Graduate Academic Assistant, Vancouver Summer Program UBC | 2020 - 2022    |
+| Graduate Academic Assistant, Vancouver Summer Program UBC | 2019           |
 +-----------------------------------------------------------+----------------+
-| Teaching Academic Assistant, UBC Geography Department     | 2015 - 2020    |
+| Teaching Assistant, UBC Geography Department              | 2015 - 2020    |
 +-----------------------------------------------------------+----------------+
 | Research Assistant, USC Geography Department              | 2013 - 2015    |
 +-----------------------------------------------------------+----------------+
@@ -86,9 +84,8 @@ csl: american-geophysical-union.csl
 
 ## Peer Reviewed
 
+::: {.content-visible when-format="html"}
 ::: {.hidden}
-
-<!-- .content-hidden when-format="pdf"} -->
 
 @skeeter_controls_2022
 @skeeter_vegetation_2020
@@ -96,15 +93,18 @@ csl: american-geophysical-union.csl
 @skeeter_using_2013
 
 :::
+:::
 
 
 
 ## Book chapter
 
+::: {.content-visible when-format="html"}
 ::: {.hidden}
 
 @skeeter_chapter_2022
 
+:::
 :::
 
 
@@ -113,6 +113,7 @@ csl: american-geophysical-union.csl
 
 ## Research Talks
 
+::: {.content-visible when-format="html"}
 ::: {.hidden}
 
 @skeeter_compiling_2021
@@ -129,9 +130,11 @@ csl: american-geophysical-union.csl
 @skeeter_using_2012-2
 
 :::
+:::
 
 ## Guest Lectures
 
+::: {.content-visible when-format="html"}
 ::: {.hidden}
 
 @skeeter_remote_2022
@@ -139,9 +142,12 @@ csl: american-geophysical-union.csl
 @skeeter_remote_2020
 
 :::
+:::
+
 
 ## Poster Presentations
 
+::: {.content-visible when-format="html"}
 ::: {.hidden}
 
 @skeeter_growing_2018
@@ -151,6 +157,8 @@ csl: american-geophysical-union.csl
 @skeeter_possible_2011
 
 :::
+:::
+
 
 
 # Technical Skills 
