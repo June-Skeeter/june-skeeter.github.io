@@ -6,3 +6,6 @@ title: ""
 
 
 Hi! I'm Dr. June Skeeter.  I am a micrometeorologist and spatial data scientist working at the University of British Columbia.  I'm a fluent Python programmer with functional proficiency in a number of other languages including JavaScript and Matlab.  I prefer to work with open source options whenever possible because accessibility of information, transparency in data analysis, and minimizing barriers to access are central to my pedagogical philosophy and personal research practices.  I've created this website to highlight some of my work and provide a template that others can use to make their own website!  If you'd like to use this template, you can clone the [repo](https://github.com/June-Skeeter/june-skeeter.github.io) and try it out for yourself!
+
+
+* Added a bullet point here!
