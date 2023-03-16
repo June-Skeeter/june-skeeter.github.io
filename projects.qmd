@@ -8,7 +8,33 @@ format:
 jupyter: python3
 ---
 
-Here is some about the things I've been working on ...
+Here is a sampling of some of the things I've been working on ...
+
+# Field Work
+
+I work in Burn's Bog; I maintain a couple of our group's Eddy Covariance (EC) stations and assist with other ongoing projects in the bog.  We're starting a flux chamber data collection campaign and I'll be installing a short-term EC station on a portable tripod this summer.
+
+* The bog is a tricky place to navigate so I created this web-app to help!  It shows our sites and access trails plotted over high resolution satellite imagery.  It can also be help with surveying in the field using GPS on a mobile device to track a user and record/download waypoints.
+
+```{html}
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="https://ubc-micromet.github.io/FieldSiteMaps/" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+<a href="https://ubc-micromet.github.io/FieldSiteMaps/" target="_blank">View Slides in New Tab</a>
+
+```
+
 
 
 # Teaching
