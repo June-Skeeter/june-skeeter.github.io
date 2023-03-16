@@ -33,12 +33,18 @@ csl: american-geophysical-union.csl
 
 ---
 
+::: {.content-visible when-format="html"}
+
+View the .pdf version [here](https://raw.githubusercontent.com/June-Skeeter/june-skeeter.github.io/main/docs/CV.pdf)
+
+:::
+
 # Education
 
 +-----------------------------------------------------------:+-------:+
 |                                                            |        |
 +============================================================+=======:+
-|PhD Geography, University of British Columbia (UBC)         | 2023   |
+|PhD Geography, University of British Columbia (UBC)         | 2022   |
 +------------------------------------------------------------+--------+
 | - {{< var Dissertation >}}                                 |        |
 +------------------------------------------------------------+--------+

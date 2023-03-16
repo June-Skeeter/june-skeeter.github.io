@@ -6,7 +6,7 @@ This webpage was created using [Quarto](https://quarto.org/) and is hosted using
 
 If you want to make your own, the first step is to [download and install Quarto](https://quarto.org/docs/get-started/).  It can be run in RStudio or VSCode (along with other apps).  To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-To host a personal website on github you need to create a github repository using a special format: User-Name.github.io
+To host a personal website you need to create a github repository using this format: User-Name.github.io
 
 * This isn't necessary to host a regular webpage with github, only if you want to make a "homepage" for yourself. i.e., the repo for this site is: [https://github.com/June-Skeeter/june-skeeter.github.io](https://github.com/June-Skeeter/june-skeeter.github.io), so when the page is rendered it shows up as [https://june-skeeter.github.io/](https://june-skeeter.github.io/)
 
