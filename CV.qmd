@@ -35,7 +35,7 @@ csl: american-geophysical-union.csl
 
 ::: {.content-visible when-format="html"}
 
-View the .pdf version [here](https://raw.githubusercontent.com/June-Skeeter/june-skeeter.github.io/main/docs/CV.pdf)
+View the .pdf version [here](CV.pdf)
 
 :::
 
@@ -93,6 +93,7 @@ View the .pdf version [here](https://raw.githubusercontent.com/June-Skeeter/june
 ::: {.content-visible when-format="html"}
 ::: {.hidden}
 
+@skeeter_modelling_2023
 @skeeter_controls_2022
 @skeeter_vegetation_2020
 @skeeter_fog_2016
@@ -122,6 +123,8 @@ View the .pdf version [here](https://raw.githubusercontent.com/June-Skeeter/june
 ::: {.content-visible when-format="html"}
 ::: {.hidden}
 
+@skeeter_framework_2023
+@skeeter_ongoing_2023
 @skeeter_compiling_2021
 @skeeter_police_2021
 @ahmed_how_2019
