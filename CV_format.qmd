@@ -1,0 +1,44 @@
+---
+format: 
+  html: 
+    code-fold: true
+    
+jupyter: python3
+---
+
+
+```{python}
+
+raw_doc = "CV_doc"
+updated_doc = 'CV_updated'
+
+f = open(f"{raw_doc}.md", "r")
+raw = f.read()
+raw = raw.split('---',2)[-1]
+
+names_list = ['Skeeter, J.']
+
+for name in names_list:
+  raw = raw.replace(name,f'**{name}**')
+
+pdf_link = '''
+::: {.content-visible when-format="html"}
+
+'''+f'View the .pdf version [here]({updated_doc}.pdf)'+'''
+
+:::
+'''
+
+raw = pdf_link + raw
+
+with open(f"{updated_doc}.qmd", "r") as f:
+
+  updated = f.read()
+  updated = updated.split('---',2)[1]
+  updated = '---' + updated + '---\n' + raw
+
+with open(f"{updated_doc}.qmd", "w+") as f: 
+
+  f.write(updated)
+
+```

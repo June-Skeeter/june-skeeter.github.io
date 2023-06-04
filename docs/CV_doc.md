@@ -1,0 +1,360 @@
+---
+_quarto-vars:
+  AAG: American Association of Geographers
+  CSFAM: Canadian Society of Agricultural and Forest Meteorology
+  Dissertation: Using machine learning to identify and map controls of
+    growing-season carbon dioxide and methane fluxes in the Mackenzie
+    Delta region
+  MADAAG: Middle Atlantic Division of the American Association of
+    Geographers
+  PID: Police Involved Deaths in Canada Database
+  Thesis: Ammonium Concentrations Above a Louisiana Sugarcane Field
+author:
+- Dr. June Skeeter
+bibliography: MyPublications.bib
+csl: american-geophysical-union.csl
+execute:
+  freeze: auto
+section-bibs-bibliography: MyPublications.bib
+section-bibs-level: 2
+title: Curriculum Vitae
+toc-title: Table of contents
+website:
+  navbar:
+    left:
+    - href: index.qmd
+      text: Home
+    - href: CV_updated.qmd
+      text: CV
+    - href: projects.qmd
+      text: Projects
+    - href: Make_a\_Site.qmd
+      text: How to make your own site!
+  title: AboutMe
+---
+
+# Education
+
++---------------------------------------------------------------+-----:+
+| PhD Geography, University of British Columbia (UBC)           | 2022 |
++---------------------------------------------------------------+------+
+| -   Using machine learning to identify and map controls of    |      |
+|     growing-season carbon dioxide and methane fluxes in the   |      |
+|     Mackenzie Delta region                                    |      |
++---------------------------------------------------------------+------+
+|                                                               |      |
++---------------------------------------------------------------+------+
+| MsC Geography, University of South Carolina (USC)             | 2015 |
++---------------------------------------------------------------+------+
+| -   Ammonium Concentrations Above a Louisiana Sugarcane Field |      |
++---------------------------------------------------------------+------+
+|                                                               |      |
++---------------------------------------------------------------+------+
+| BS Geography & BS Earth Science, Salisbury University (SU)    | 2013 |
++---------------------------------------------------------------+------+
+| -   Minor in Statistics                                       |      |
+| -   Graduated Cum Laude                                       |      |
++---------------------------------------------------------------+------+
+
+# Employment
+
+  -------------------------------------------------------- --------------
+  Postdoc, UBC Micrometeorolgy                             2022 - Present
+
+  Sessional Instructor, UBC Geography Department           2020 - Present
+
+  Graduate Academic Assistant, UBC Library Research           2020 - 2022
+  Commons                                                  
+
+  Graduate Academic Assistant, Vancouver Summer Program              2019
+  UBC                                                      
+
+  Teaching Assistant, UBC Geography Department                2015 - 2020
+
+  Research Assistant, USC Geography Department                2013 - 2015
+
+  Lab Assistant & Tutor, SU Geography Department              2013 - 2015
+  -------------------------------------------------------- --------------
+
+# Publications
+
+## Peer Reviewed
+
+::: {#refs-3.1 .references .csl-bib-body .hanging-indent line-spacing="2"}
+::: {#ref-skeeter_modelling_2023 .csl-entry}
+Skeeter, J., Christen, A., & Henry, G. H. R. (2023). Modelling Growing
+Season Carbon Fluxes at a Low-Center Polygon Ecosystem in the Mackenzie
+River Delta. *Arctic Science*. <https://doi.org/10.1139/AS-2022-0033>
+:::
+
+::: {#ref-skeeter_controls_2022 .csl-entry}
+Skeeter, J., Christen, A., & Henry, G. H. R. (2022). Controls on carbon
+dioxide and methane fluxes from a low-center polygonal peatland in the
+Mackenzie River Delta, Northwest Territories. *Arctic Science*, *8*(2),
+471--497. <https://doi.org/10.1139/as-2021-0034>
+:::
+
+::: {#ref-skeeter_vegetation_2020 .csl-entry}
+Skeeter, J., Christen, A., Laforce, A.-A., Humphreys, E., & Henry, G.
+(2020). Vegetation influence and environmental controls on greenhouse
+gas fluxes from a drained thermokarst lake in the western Canadian
+Arctic. *Biogeosciences*, *17*(17), 4421--4441.
+<https://doi.org/10.5194/bg-17-4421-2020>
+:::
+
+::: {#ref-skeeter_fog_2016 .csl-entry}
+Skeeter, J., Parnell, D. B., & Skeeter, B. R. (2016). A Fog Climatology
+of the Delmarva Peninsula. *The Geographical Bulletin*, *57*(2), 65--75.
+Retrieved from
+<https://www.proquest.com/docview/1845101484/abstract/A0CE794EC54E4E8BPQ/1>
+:::
+
+::: {#ref-skeeter_using_2013 .csl-entry}
+Skeeter, J. (2013, April 11). Using Radar Composites to Detect Variances
+in Precipitation from Cold Fronts Across the Chesapeake Bay: April
+through October from 1997 to 2012. paper-conference, Los Angeles CA:
+presented at the Association of American Geographers annual meeting.
+:::
+:::
+
+## Book chapter
+
+::: {#refs-3.2 .references .csl-bib-body .hanging-indent line-spacing="2"}
+::: {#ref-skeeter_chapter_2022 .csl-entry}
+Skeeter, J., & Pickell, P. (2022). Chapter 3 Data Types and Spatial Data
+Models. In *Geomatics for Environmental Management: An Open Textbook for
+Students and Practitioners*. University of British Columbia. Retrieved
+from
+<https://www.opengeomatics.ca/types-of-data.html#reflection-questions-2>
+:::
+:::
+
+# Presentations
+
+## Research Talks
+
+::: {#refs-4.1 .references .csl-bib-body .hanging-indent line-spacing="2"}
+::: {#ref-skeeter_framework_2023 .csl-entry}
+Skeeter, J., & Knox, S. (2023, May 8). A framework for applying neural
+networks to eddy covariance data. paper-conference, presented the annual
+meeting of the Canadian Geophysical Union, Banff, AB.
+:::
+
+::: {#ref-skeeter_ongoing_2023 .csl-entry}
+Skeeter, J., & Knox, S. (2023, April 11). Ongoing and proposed research
+in the burns bog ecological conservancy area. paper-conference,
+presented at the CLASSIC/COHERENT-C Workshop, Victoria, BC.
+:::
+
+::: {#ref-skeeter_compiling_2021 .csl-entry}
+Skeeter, J. (2021, October 29). Compiling and Mapping Police Involved
+Deaths: Systemic Racism in Canadian Policing. paper-conference,
+Vancouver BC: presented at the Western Association of Map Librarians
+annual meeting.
+:::
+
+::: {#ref-skeeter_police_2021 .csl-entry}
+Skeeter, J. (2021, April 7). Police Killings and Systemic Racism in
+Canadian Policing. paper-conference, \*virtual: presented at the
+Association of American Geographers annual meeting.
+:::
+
+::: {#ref-ahmed_how_2019 .csl-entry}
+Ahmed, M., & Skeeter, J. (2019, October 10). How Can I Reduce My Carbon
+Footprint? paper-conference, Vancouver BC: presented at the EcoCity
+World Summit.
+:::
+
+::: {#ref-skeeter_vegetation_2017 .csl-entry}
+Skeeter, J. (2017, May 30). Vegetation Influence and Environmental
+Controls on Greenhouse Gas Fluxes from a Drained Thermokarst Lake in the
+Mackenzie River Delta, NWT. paper-conference, Vancouver BC: presented
+the annual meeting of the Canadian Geophysical Union.
+:::
+
+::: {#ref-skeeter_greenhouse_2017 .csl-entry}
+Skeeter, J. (2017, July 8). Greenhouse Gas Exchange in the Outer
+Mackenzie Delta. paper-conference, Inuvik, NT: presented at the Aurora
+Research Institute Summer Speakers Series.
+:::
+
+::: {#ref-skeeter_growing_2017 .csl-entry}
+Skeeter, J. (2017, December 13). Growing Season Carbon Balance of a
+Mackenzie River Delta Peatland. paper-conference, Quebec City, QC:
+presented at the presented at the ArcticNet conference.
+:::
+
+::: {#ref-skeeter_carbon_2016 .csl-entry}
+Skeeter, J. (2016, December 7). Carbon Dioxide and Methane fluxes at
+Illisarvik 2016. poster-conference, Whinnipeg, MB: presentated at
+ArcticNet conference.
+:::
+
+::: {#ref-skeeter_identifying_2014-1 .csl-entry}
+Skeeter, J. (2014, May 12). Identifying Source Areas of Ammonium
+Concentrations Sampled Above a Louisiana Sugarcane Field.
+paper-conference, Portland OR: presented at the 31st Conference on
+Agricultural and Forest Meteorology.
+:::
+
+::: {#ref-skeeter_identifying_2014-2 .csl-entry}
+Skeeter, J. (2014, April 8). Identifying Source Areas of Ammonium
+Concentrations Sampled Above a Louisiana Sugarcane Field.
+paper-conference, Tampa FL: presented at the Association of American
+Geographers annual meeting.
+:::
+
+::: {#ref-skeeter_fog_2013 .csl-entry}
+Skeeter, J. (2013, April 26). Fog Climatology of Salisbury, MD.
+paper-conference, Salisbury MD: presented at the Salisbury University
+Student Research Conference.
+:::
+
+::: {#ref-skeeter_using_2013 .csl-entry}
+Skeeter, J. (2013, April 11). Using Radar Composites to Detect Variances
+in Precipitation from Cold Fronts Across the Chesapeake Bay: April
+through October from 1997 to 2012. paper-conference, Los Angeles CA:
+presented at the Association of American Geographers annual meeting.
+:::
+
+::: {#ref-skeeter_using_2012-2 .csl-entry}
+Skeeter, J. (2012, November 3). Using Radar Composites Created in Model
+Builder to Perform Statistical Analyses of Cold Frontal Precipitation
+Events in the Chesapeake Bay Region: April through October 1997-2011.
+paper-conference, Salisbury MD: presented at the joint annual meeting of
+the Pennsylvania Geographical Society and the Middle Atlantic Division
+of the Association of American Geographers.
+:::
+:::
+
+## Guest Lectures
+
+::: {#refs-4.2 .references .csl-bib-body .hanging-indent line-spacing="2"}
+::: {#ref-skeeter_remote_2022 .csl-entry}
+Skeeter, J. (2022, March). Remote Sensing in Atmospheric Sciences. Guest
+lecture, GEOS 373, Vancouver BC.
+:::
+
+::: {#ref-skeeter_data_2020 .csl-entry}
+Skeeter, J. (2020, November). Data Normalization & Classification:
+Police Violence in North America. Guest lecture, GEOS 270, Vancouver BC.
+:::
+
+::: {#ref-skeeter_remote_2020 .csl-entry}
+Skeeter, J. (2020, November). Remote Sensing in Atmospheric Sciences.
+Guest lecture, GEOS 373, Vancouver BC.
+:::
+:::
+
+## Poster Presentations
+
+::: {#refs-4.3 .references .csl-bib-body .hanging-indent line-spacing="2"}
+::: {#ref-skeeter_growing_2018 .csl-entry}
+Skeeter, J. (2018, April 10). Growing Season Carbon Balance of a
+Permafrost Peatland in the Mackenzie River Delta. poster-conference,
+Vienna, AT: presented at European Geophysical Union annual meeting.
+:::
+
+::: {#ref-skeeter_carbon_2016 .csl-entry}
+Skeeter, J. (2016, December 7). Carbon Dioxide and Methane fluxes at
+Illisarvik 2016. poster-conference, Whinnipeg, MB: presentated at
+ArcticNet conference.
+:::
+
+::: {#ref-skeeter_source_2014 .csl-entry}
+Skeeter, J. (2014, November 24). Source Areas of Ammonium Sampled Above
+a Louisiana Sugarcane Field. poster-conference, Roanoke VA: presentated
+at the South Eastern Division of the Association of American Geographers
+annual meeting.
+:::
+
+::: {#ref-skeeter_using_2012-1 .csl-entry}
+Skeeter, J. (2012, November 19). Using Radar Composites Created in Model
+Builder to Perform Statistical Analyses of Cold Frontal Precipitation
+Events in the Chesapeake Bay Region: April through October 1997-2011.
+poster-conference, Asheville NC: presented at the South Eastern Division
+of the Association of American Geographers annual meeting.
+:::
+
+::: {#ref-skeeter_possible_2011 .csl-entry}
+Skeeter, J. (2011, October 28). The Possible Differing Influence of the
+Chesapeake Bay on Frontal and Squall Line Precipitation Events
+(April-October). poster-conference, College Park MD: presentated at the
+Middle Atlantic Division of the Association of American Geographers
+annual meeting.
+:::
+:::
+
+# Technical Skills
+
++----------------------+----------------------+----------------------+
+| Field & Research     | Programming & Markup | Software &           |
+| Methods              | Languages            | Applications         |
++:=====================+:=====================+:=====================+
+| -   Eddy Covariance  | -   Python           | -   Git & GitHub     |
+| -   Footprint        | -   Javascript       | -   ArcGIS Pro &     |
+|     Modelling        | -   Matlab           |     QGIS             |
+| -   Flux Chamber     | -   R                | -   Google Earth     |
+|     Sampling         | -   HTML             |     Engine           |
+| -   Drone Surveying  | -   Markdown         | -   Mapbox API       |
+| -   Machine Learning |                      | -   Loggernet        |
+| -   Image            |                      | -   Eddy Pro         |
+|     Classification   |                      | -   Quarto           |
++----------------------+----------------------+----------------------+
+
+# Volunteer Work and Committee Positions
+
++--------------------------------------------------------+------------:+
+| Western Director, Canadian Society of Agricultural and | 2023 -      |
+| Forest Meteorology                                     | Present     |
++--------------------------------------------------------+-------------+
+| Police Involved Deaths in Canada Database              | 2020 - 2022 |
++--------------------------------------------------------+-------------+
+| Graduate Committee Representative, UBC Geography       | 2019 - 2020 |
++--------------------------------------------------------+-------------+
+| Climate Consultant, EcoMeet App                        | 2019        |
++--------------------------------------------------------+-------------+
+| Co-chair, UBC Geography Graduate Student Association   | 2018 - 2018 |
++--------------------------------------------------------+-------------+
+| USC Geography Departmental Outreach Committee          | 2018 - 2018 |
++--------------------------------------------------------+-------------+
+
+# Awards
+
++-----------------------------------------------+-----------+-----------+
+|                                               |           |           |
+|                                             | |           |           |
+|                                               |           |           |
+| ==============================                |           |           |
+| ==============================+============:+ |           |           |
+| Open Educational Resource Champion, UBC Alma  |           |           |
+| Mater Society \| 2022 \|                      |           |           |
++-----------------------------------------------+-----------+-----------+
+| Four-year Doctoral Fellowship, UBC            | 2015 -    |           |
+|                                               | 2019      |           |
++-----------------------------------------------+-----------+-----------+
+| Graduate Assistanceship Award, UBC            | 2013 -    |           |
+|                                               | 2015      |           |
++-----------------------------------------------+-----------+-----------+
+| Presidential Scholarship, SU                  | 2009 -    |           |
+|                                               | 2013      |           |
++-----------------------------------------------+-----------+-----------+
+| American Association of Geographers World     | 2009 -    |           |
+| Geography Bowls                               | 2013      |           |
++-----------------------------------------------+-----------+-----------+
+| -   Four-time All Star Team Member, Middle    |           |           |
+|     Atlantic Division                         |           |           |
++-----------------------------------------------+-----------+-----------+
+| Outstanding Graduating Senior Award, SU       | 2013      |           |
+| Geography                                     |           |           |
++-----------------------------------------------+-----------+-----------+
+| Outstanding Academic Achievement Award, SU    | 2013      |           |
+| Geography                                     |           |           |
++-----------------------------------------------+-----------+-----------+
+| 1st Place Student Paper Middle Atlantic       | 2012      |           |
+| Division of the American Association of       |           |           |
+| Geographers Annual Meeting                    |           |           |
++-----------------------------------------------+-----------+-----------+
+| Donald Lee Schul Jr. Memorial Wrestling       | 2009      |           |
+| Scholarship, SU                               |           |           |
++-----------------------------------------------+-----------+-----------+
