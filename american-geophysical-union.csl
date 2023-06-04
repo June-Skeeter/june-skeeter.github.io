@@ -82,6 +82,7 @@
   </macro>
   <macro name="author">
     <names variable="author">
+     <!-- font-weight="bold" -->
       <name name-as-sort-order="all" and="symbol" sort-separator=", " initialize-with=". " delimiter=", " delimiter-precedes-last="always"/>
       <label form="short" prefix=" (" suffix=")" text-case="capitalize-first"/>
       <substitute>
@@ -666,7 +667,7 @@
       <key macro="issued-sort"/>
       <key macro="author"/>
     </sort>
-    <layout prefix="(" suffix=")" delimiter="; ">
+    <layout prefix="(" suffix=")" delimiter="; " >
       <group delimiter=", ">
         <text macro="author-short"/>
         <text macro="issued-year"/>

@@ -10,7 +10,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: CV.qmd
+      - href: CV_updated.qmd
         text: CV
       - href: projects.qmd
         text: Projects
