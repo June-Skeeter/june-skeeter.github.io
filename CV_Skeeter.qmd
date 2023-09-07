@@ -8,22 +8,40 @@ author:
     phone: "604 440 1697"
 
 format: 
-  markdown:
-    code-fold: true
+  pdf:
+    template-partials: 
+      - title.tex
+    mainfont: TeX Gyre Bonum
+	# see for more font options -> https://www.overleaf.com/learn/latex/Font_typefaces#Reference_guide
+    linestretch: 1.25
+    include-in-header:
+      text: |
+        \usepackage[blocks]{authblk}
+        \usepackage[a4paper,total={170mm,257mm}, top=20mm, left=20mm]{geometry}
+  # html:
+  #   code-fold: true
 
-bibliography: MyPublications.bib
-section-bibs-bibliography: MyPublications.bib
+
+bibliography: MyPublications.json
+section-bibs-bibliography: MyPublications.json
 filters:
   - section-bibliographies
+  - bold-author.lua
+bold-auth-name:
+  - family: Skeeter
+    given: J.
 section-bibs-level: 2 # May require edit to line 78 in _extensions/section-bibliographies.lua - have submitted issue
 citeproc: false
 
 csl: american-geophysical-union.csl
 
-execute:
-  freeze: auto  # re-render only when source changes
-
 ---
+
+::: {.content-visible when-format="html"}
+
+View the .pdf version [here](CV_Skeeter.pdf)
+
+:::
 
 # Education
 
@@ -132,6 +150,7 @@ execute:
 ::: {.content-visible when-format="html"}
 ::: {.hidden}
 
+@skeeter_opensourcegis_2023
 @skeeter_remote_2022
 @skeeter_data_2020
 @skeeter_remote_2020
@@ -168,7 +187,7 @@ execute:
 | - Drone Surveying              | - R                            | - Mapbox API            |
 | - Machine Learning             | - HTML                         | - Loggernet             |
 | - Image Classification         | - Markdown                     | - Eddy Pro              |
-|                                |                                | - Quarto                |
+| - Empirical Modelling          | - CRBasic                      | - Quarto                |
 +--------------------------------+--------------------------------+-------------------------+
 
 : {tbl-colwidths="[33,33,33]"}
@@ -176,7 +195,7 @@ execute:
 # Volunteer Work and Committee Positions
 
 +-----------------------------------------------------------:+---------------:+
-| 											                 |                |
+| 											                                     |                |
 +============================================================+===============:+
 | Western Director, {{< var CSFAM >}}                        | 2023 - Present |
 +------------------------------------------------------------+----------------+

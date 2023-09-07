@@ -12,18 +12,24 @@ Here is a sampling of some of the things I've been working on.
 
 # Field Work
 
-Through my career I've done field work all over the world, from pine plantations in New Zealand to tundra sites in the Mackenzie Delta region of the Northwest Territories.
 
-::: {.center}
+:::: {.columns}
+::: {.column width="65%"}
 
-![Me at Illisarvik](images/Field_1.jpg){width=50%}
-
-:::
-
-Presently, I mostly work in Burn's Bog in Delta, BC.
+Through my career I've done field work all over the world, from pine plantations in New Zealand to tundra sites in the Mackenzie Delta region of the Northwest Territories.  Presently, I work in Burn's Bog in Delta, BC.
 
 * I maintain a couple of our group's Eddy Covariance (EC) stations and assist with other ongoing projects in the bog.  
 * We're starting a flux chamber data collection campaign and I'll be installing a short-term EC station on a portable tripod this summer.
+
+:::
+::: {.column width="30%"}
+
+![Me at Illisarvik, NWT](images/Field_1.jpg)
+
+:::
+
+::::
+
 
 ::: {layout-ncol=2}
 
@@ -40,10 +46,10 @@ The bog is a tricky place to navigate so I created this web-app to help!  It sho
 
 ```{=html}
 
-<iframe width="100%" height="500"  src="https://ubc-micromet.github.io/FieldSiteMaps/" title="FieldSiteMap">
+<iframe width="100%" height="500"  src="https://june-skeeter.github.io/FieldSiteNavigation/" title="FieldSiteMap">
   <p>Your browser does not support iframes.</p>
 </iframe>
-<a href="https://ubc-micromet.github.io/FieldSiteMaps/" target="_blank">View Slides in New Tab</a>
+<a href="https://june-skeeter.github.io/FieldSiteNavigation/" target="_blank">View Slides in New Tab</a>
 
 ```
 
@@ -51,7 +57,7 @@ The bog is a tricky place to navigate so I created this web-app to help!  It sho
 
 # Teaching
 
-I have published all of my course material for GEOS 270 as an Open Educational Resource (OER) on Github.  The syllabus can be found [here](https://geos270.github.io/Syllabus/), it has links to all of the course content in the schedule on the course overview page.  
+I have published all of my course material for GEOS 270 as an Open Educational Resource (OER) on Github.  The syllabus can be found [here](https://geos270.github.io/), it has links to all of the course content in the schedule on the course overview page.  
 
 * I feel this is the most effective, transparent, and accessible way I can provide content for my students.
   * The institutional tools provided by UBC (e.g., Canvas) to be lacking in functionality and flexibility;  they also pose an obvious barrier to accessibility.  

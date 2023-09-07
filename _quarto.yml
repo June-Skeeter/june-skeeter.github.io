@@ -1,8 +1,6 @@
 project:
   type: website  
   output-dir: docs
-  render:
-    - "*.qmd"
 
 website:
   title: "AboutMe"
@@ -10,8 +8,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: CV_updated.qmd
-        text: CV
+      - href: CV_Skeeter.qmd
+        text: Curriculum Vitae
       - href: projects.qmd
         text: Projects
       - href: Make_a_Site.qmd
@@ -19,7 +17,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: spacelab
     css: styles.css
     toc: true
 
