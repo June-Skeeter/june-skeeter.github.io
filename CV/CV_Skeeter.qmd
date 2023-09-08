@@ -62,21 +62,21 @@ View the .pdf version [here](CV_Skeeter.pdf)
 +================================================================================+===============:+
 | Postdoctoral Researcher: UBC Micrometeorology                                  | 2022 - 2023    |
 +--------------------------------------------------------------------------------+----------------+
-| Sessional Instructor: UBC Geography Department                                 | &npsp;         |
+| Sessional Instructor: UBC Geography Department                                 | &nbsp;         |
 |                                                                                |                |
-| - Atmospheric Environments: [Course Webpage](https://geos200.github.io/)       | 2023           |
+| - Atmospheric Environments: [Course Webpage](https://geos200.github.io/)       | 2023 <br>      |
 | - Geographic Information Science: [Course Webpage](https://geos270.github.io/) | 2020 - 2023    |
 +--------------------------------------------------------------------------------+----------------+
 | Field Assistant: UBC Micrometeorology                                          |                |
 +--------------------------------------------------------------------------------+----------------+
-| Graduate Academic Assistant:                                                   | &npsp;         |
+| Graduate Academic Assistant:                                                   | &nbsp;         |
 |                                                                                |                |
-| - UBC Library Research Commons                                                 | 2020 - 2022    |
+| - UBC Library Research Commons                                                 | 2020 - 2022<br>|
 | - Vancouver Summer Program, UBC School of Community and Regional Planning      | 2019           |
 +--------------------------------------------------------------------------------+----------------+
-| Teaching Assistant:                                                            | &npsp;         |
+| Teaching Assistant:                                                            | &nbsp;         |
 |                                                                                |                |
-| - UBC Geography Department                                                     | 2015 - 2019    |
+| - UBC Geography Department                                                     | 2015 - 2019<br>|
 | - USC Geography Department                                                     | 2014           |
 +--------------------------------------------------------------------------------+----------------+
 | Research Assistant: USC Geography Department                                   | 2013 - 2015    |

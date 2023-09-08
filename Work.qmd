@@ -30,7 +30,7 @@ In early summer 2023 I designed and deployed a light-weight EC system mounted on
 
 ## Flux Footprint Mapping
 
-I've developed a python based tool for creating flux footprints web maps using the Kljun et al. (2015) flux footprint model.  The maps for our field sites are shown in the image below.
+I've developed a python based tool for creating flux footprints web maps using the Kljun et al. (2015) flux footprint model.  The maps for our field sites are shown in the image below.  You can click the list sites on the left to zoom to site and see the flux footprint climatology for the site.  The tool also has the capability to include a vegetation map for the site to better estimate the flux contribution by different source/sink area
 
 * I'm still working on preparing/documenting the code for broader distribution.  I'll post a link here when its ready :D
 
