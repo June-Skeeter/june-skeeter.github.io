@@ -82,7 +82,6 @@
   </macro>
   <macro name="author">
     <names variable="author">
-     <!-- font-weight="bold" -->
       <name name-as-sort-order="all" and="symbol" sort-separator=", " initialize-with=". " delimiter=", " delimiter-precedes-last="always"/>
       <label form="short" prefix=" (" suffix=")" text-case="capitalize-first"/>
       <substitute>
@@ -429,6 +428,14 @@
       </if>
     </choose>
   </macro>
+<!-- Added Date Sorting -->
+  <macro name="date-sort">
+    <date variable="issued">
+      <date-part name="year"/>
+      <date-part name="month" form="numeric-leading-zeros"/>
+      <date-part name="day"/>
+    </date>
+  </macro>
   <macro name="issued-sort">
     <choose>
       <if type="article-journal bill book chapter graphic legal_case legislation motion_picture paper-conference report song dataset" match="none">
@@ -667,7 +674,7 @@
       <key macro="issued-sort"/>
       <key macro="author"/>
     </sort>
-    <layout prefix="(" suffix=")" delimiter="; " >
+    <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=", ">
         <text macro="author-short"/>
         <text macro="issued-year"/>
@@ -678,7 +685,7 @@
   <bibliography hanging-indent="true" et-al-min="8" et-al-use-first="6" entry-spacing="0" line-spacing="2">
     <sort>
     <!-- JS - changed order to work for CV sort by date descending before anything else-->
-      <key macro="issued-sort" sort="descending"/>
+      <key macro="date-sort" sort="descending"/>
       <key macro="author" names-min="1" names-use-first="1"/>
       <key macro="author-count" names-min="3" names-use-first="3"/>
       <key macro="author" names-min="3" names-use-first="1"/>
