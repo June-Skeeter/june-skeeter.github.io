@@ -11,7 +11,8 @@ bibliography: MyPublications.json
 section-bibs-bibliography: MyPublications.json
 filters:
   - section-bibliographies
-  - bold-author.lua
+  - ../_extensions/bold-author.lua
+  - ../_extensions/hide-me.lua
 bold-auth-name:
   - family: Skeeter
     given: June
@@ -89,10 +90,10 @@ View the .pdf version [here](CV_Skeeter.pdf)
 
 # Publications
 
-## Peer Reviewed
+## Peer Reviewed Articles
 
-::: {.content-visible when-format="html"}
-::: {.hidden}
+
+::: hide-me
 
 @skeeter_modelling_2023
 @skeeter_controls_2022
@@ -101,18 +102,14 @@ View the .pdf version [here](CV_Skeeter.pdf)
 @skeeter_using_2013-1
 
 :::
-:::
-
 
 
 ## Book chapter
 
-::: {.content-visible when-format="html"}
-::: {.hidden}
+::: hide-me
 
 @skeeter_chapter_2022
 
-:::
 :::
 
 
@@ -121,8 +118,8 @@ View the .pdf version [here](CV_Skeeter.pdf)
 
 ## Research Talks
 
-::: {.content-visible when-format="html"}
-::: {.hidden}
+
+::: hide-me
 
 @skeeter_framework_2023
 @skeeter_ongoing_2023
@@ -140,12 +137,10 @@ View the .pdf version [here](CV_Skeeter.pdf)
 @skeeter_using_2012-2
 
 :::
-:::
 
 ## Guest Lectures
 
-::: {.content-visible when-format="html"}
-::: {.hidden}
+::: hide-me
 
 @skeeter_opensourcegis_2023
 @skeeter_remote_2022
@@ -153,13 +148,11 @@ View the .pdf version [here](CV_Skeeter.pdf)
 @skeeter_remote_2020
 
 :::
-:::
 
 
 ## Poster Presentations
 
-::: {.content-visible when-format="html"}
-::: {.hidden}
+::: hide-me
 
 @skeeter_growing_2018
 @skeeter_carbon_2016
@@ -168,8 +161,6 @@ View the .pdf version [here](CV_Skeeter.pdf)
 @skeeter_possible_2011
 
 :::
-:::
-
 
 
 # Technical Skills 
