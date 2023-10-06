@@ -12,11 +12,11 @@ website:
         text: Curriculum Vitae
       - href: Work.qmd
         text: Recent Work
-      # - href: Make_a_Site.qmd
-      #   text: How to make your own site!
+      - href: Make_a_Site.qmd
+        text: How to make your own site!
     right:
       - icon: github
-        href: https://github.com/GEOS200
+        href: https://github.com/June-Skeeter
         aria-label: Quarto GitHub
 
 format:
