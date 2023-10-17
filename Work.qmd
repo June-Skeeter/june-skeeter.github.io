@@ -17,15 +17,20 @@ Through my career I've done field work all over the world, from pine plantations
 
 ## Mobile BBS Flux Tower
 
-::: {layout-ncol=2}
 
-![Me working on setting up the flux tower](images/BBS_Me.jpg)
 
-![The finished flux tower](images/BBS_Tower.jpg)
+In spring/summer 2023 I designed and deployed a light-weight EC system mounted on a telescoping tripod to measure CO<sub>2</sub>, water, and energy fluxes over a 7-year old stand of lodgepole pine seedlings in Burns Bog that sprouted following a fire in 2016.  The tower will operate through the fall until the sun/cloud conditions become unfavorable for solar power generation.  We will restart observations in late winter 2024.
 
+::: {layout-nrow=2}
+
+![The finished flux tower, feat. Rick Ketler for scale](images/BBS_Install/PXL_20230615_002320381.jpg)
+
+![Me working on setting up the flux tower](images/BBS_Install/IMG_6919.jpg)
+
+![The team who helped carry the gear in](images/BBS_Install/20230614_104903.jpg)
+
+![Carrying supplies into the site](images/BBS_Install/IMG_8978.jpg)
 :::
-
-In early summer 2023 I designed and deployed a light-weight EC system mounted on a telescoping tripod to measure CO<sub>2</sub> fluxes in stand of lodgepole pine seedlings in Burns Bog that sprouted following a fire in 2016.
 
 
 ## Flux Footprint Mapping
@@ -52,7 +57,7 @@ I've developed a python based tool for creating flux footprints web maps using t
 
 ![The EC station I installed at Fish Island, NWD in 2017](images/FishIsland.jpg)
 
-![Collecting data from the EC station I operated at Illisarvik, NWT in 2016](images/Illisarvik.jpg)
+![Collecting data from the EC station I operated at Illisarvik, NWT in 2016](images/Illisarvik.jpg){width="80%"}
 
 :::
 

@@ -7,23 +7,8 @@ author:
     pronouns: "they/them/theirs"
     phone: "604 440 1697"
 
-bibliography: MyPublications.json
-section-bibs-bibliography: MyPublications.json
-filters:
-  - section-bibliographies
-  - ../_extensions/bold-author.lua
-  - ../_extensions/hide-me.lua
-bold-auth-name:
-  - family: Skeeter
-    given: June
-  - family: Skeeter
-    given: J.
-section-bibs-level: 2 # May require edit to line 78 in _extensions/section-bibliographies.lua - have submitted issue
-citeproc: false
-
-csl: american-geophysical-union.csl
-
 ---
+
 
 ::: {.content-visible when-format="html"}
 
@@ -32,8 +17,6 @@ View the .pdf version [here](CV_Skeeter.pdf)
 :::
 
 # Education
-
-
 
 +-----------------------------------------------------------:+-------:+
 |                                                            |        |
@@ -61,26 +44,20 @@ View the .pdf version [here](CV_Skeeter.pdf)
 +-------------------------------------------------------------------------------:+---------------:+
 |                                                                                |                |
 +================================================================================+===============:+
-| Postdoctoral Researcher: UBC Micrometeorology                                  | 2022 - 2023    |
+| Postdoctoral Researcher: UBC Micrometeorology                                  | 2022 - Present |
 +--------------------------------------------------------------------------------+----------------+
-| Sessional Instructor: UBC Geography Department                                 | &nbsp;         |
+| Sessional Instructor: UBC Geography Department                                 | 2020 - Present |
 |                                                                                |                |
-| - Atmospheric Environments: [Course Webpage](https://geos200.github.io/)       | 2023 <br>      |
-| - Geographic Information Science: [Course Webpage](https://geos270.github.io/) | 2020 - 2023    |
+| - Atmospheric Environments: [Course Webpage](https://geos200.github.io/)       |                |
+| - Geographic Information Science: [Course Webpage](https://geos270.github.io/) |                |
 +--------------------------------------------------------------------------------+----------------+
-| Field Assistant: UBC Micrometeorology                                          |                |
+| Graduate Academic Assistant: UBC Library Research Commons                      | 2020 - 2022    |
 +--------------------------------------------------------------------------------+----------------+
-| Graduate Academic Assistant:                                                   | &nbsp;         |
-|                                                                                |                |
-| - UBC Library Research Commons                                                 | 2020 - 2022<br>|
-| - Vancouver Summer Program, UBC School of Community and Regional Planning      | 2019           |
+| Sessional Instructor: UBC School of Community and Regional Planning            | 2019           |
 +--------------------------------------------------------------------------------+----------------+
-| Teaching Assistant:                                                            | &nbsp;         |
-|                                                                                |                |
-| - UBC Geography Department                                                     | 2015 - 2019<br>|
-| - USC Geography Department                                                     | 2014           |
+| Teaching Assistant: UBC Geography Department                                   | 2015 - 2019    |
 +--------------------------------------------------------------------------------+----------------+
-| Research Assistant: USC Geography Department                                   | 2013 - 2015    |
+| Research/Teaching Assistant: USC Geography Department                          | 2013 - 2015    |
 +--------------------------------------------------------------------------------+----------------+
 | Lab Assistant: SU Geography Department                                         | 2010 - 2013    |
 +--------------------------------------------------------------------------------+----------------+
@@ -118,7 +95,6 @@ View the .pdf version [here](CV_Skeeter.pdf)
 
 ## Research Talks
 
-
 ::: hide-me
 
 @skeeter_framework_2023
@@ -126,8 +102,8 @@ View the .pdf version [here](CV_Skeeter.pdf)
 @skeeter_compiling_2021
 @skeeter_police_2021
 @ahmed_how_2019
+@skeeter_growing_2018
 @skeeter_growing_2017
-@skeeter_greenhouse_2017
 @skeeter_vegetation_2017
 @skeeter_carbon_2016
 @skeeter_identifying_2014-1
@@ -146,6 +122,7 @@ View the .pdf version [here](CV_Skeeter.pdf)
 @skeeter_remote_2022
 @skeeter_data_2020
 @skeeter_remote_2020
+@skeeter_greenhouse_2017
 
 :::
 
@@ -166,13 +143,14 @@ View the .pdf version [here](CV_Skeeter.pdf)
 # Technical Skills 
 
 
+
 +:-------------------------------+:-------------------------------+:------------------------+
 | Field & Research Methods       | Programming & Markup Languages | Software & Applications |
 +:===============================+:===============================+:========================+
 | - Eddy Covariance              | - Python                       | - Git & GitHub          |
 | - Footprint Modelling          | - Javascript                   | - ArcGIS Pro & QGIS     |
-| - Flux Chamber Sampling        | - Matlab                       | - Google Earth Engine   |
-| - Drone Surveying              | - R                            | - Mapbox API            |
+| - Flux Chamber Sampling        | - R                            | - Google Earth Engine   |
+| - Drone Surveying              | - Matlab                       | - Mapbox API            |
 | - Machine Learning             | - HTML                         | - Loggernet             |
 | - Image Classification         | - Markdown                     | - Eddy Pro              |
 | - Empirical Modelling          | - CRBasic                      | - Quarto                |
