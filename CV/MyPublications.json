@@ -283,7 +283,6 @@
 		"type": "paper-conference",
 		"event-title": "Western Association of Map Librarians annual meeting",
 		"event-place": "Vancouver, BC",
-		"genre": "Talk",
 		"title": "Compiling and Mapping Police Involved Deaths: Systemic Racism in Canadian Policing",
 		"author": [
 			{
@@ -305,7 +304,6 @@
 		"type": "paper-conference",
 		"event-title": "Association of American Geographers annual meeting",
 		"event-place": "*virtual",
-		"genre": "Talk",
 		"title": "Police Killings and Systemic Racism in Canadian Policing",
 		"author": [
 			{
@@ -327,7 +325,6 @@
 		"type": "paper-conference",
 		"event-title": "EcoCity World Summit",
 		"event-place": "Vancouver, BC",
-		"genre": "Talk",
 		"title": "How Can I Reduce My Carbon Footprint?",
 		"author": [
 			{
@@ -353,7 +350,6 @@
 		"type": "paper-conference",
 		"event-place": "Quebec City, QC",
 		"event-title": "ArcticNet annual meeting",
-		"genre": "Talk",
 		"title": "Growing Season Carbon Balance of a Mackenzie River Delta Peatland",
 		"author": [
 			{
@@ -418,7 +414,6 @@
 		"type": "paper-conference",
 		"event-place": "Winnipeg, MB",
 		"event-title": "ArcticNet annual meeting",
-		"genre": "Talk",
 		"publisher-place": "Winnipeg, MB",
 		"title": "Carbon Dioxide and Methane fluxes at Illisarvik 2016",
 		"author": [
@@ -464,7 +459,6 @@
 		"type": "paper-conference",
 		"event-place": "Portland OR",
 		"event-title": "31st Conference on Agricultural and Forest Meteorology",
-		"genre": "Talk",
 		"publisher-place": "Portland OR",
 		"title": "Identifying Source Areas of Ammonium Concentrations Sampled Above a Louisiana Sugarcane Field",
 		"author": [
@@ -487,7 +481,6 @@
 		"type": "paper-conference",
 		"event-place": "Salisbury MD",
 		"event-title": "Salisbury University Student Research Conference",
-		"genre": "Talk",
 		"publisher-place": "Salisbury MD",
 		"title": "Fog Climatology of Salisbury, MD",
 		"author": [
@@ -510,7 +503,6 @@
 		"type": "paper-conference",
 		"event-place": "Los Angeles CA",
 		"event-title": "Association of American Geographers annual meeting",
-		"genre": "Talk",
 		"publisher-place": "Los Angeles CA",
 		"title": "Using Radar Composites to Detect Variances in Precipitation from Cold Fronts Across the Chesapeake Bay: April through October from 1997 to 2012",
 		"author": [
@@ -533,7 +525,6 @@
 		"type": "paper-conference",
 		"event-place": "Asheville NC",
 		"event-title": "South Eastern Division of the Association of American Geographers annual meeting",
-		"genre": "Talk",
 		"publisher-place": "Asheville NC",
 		"title": "Using Radar Composites Created in Model Builder to Perform Statistical Analyses of Cold Frontal Precipitation Events in the Chesapeake Bay Region: April through October 1997-2011",
 		"author": [
@@ -556,7 +547,6 @@
 		"type": "paper-conference",
 		"event-place": "College Park, MD",
 		"event-title": "Middle Atlantic Division of the Association of American Geographers annual meeting",
-		"genre": "Talk",
 		"title": "The Possible Differing Influence of the Chesapeake Bay on Frontal and Squall Line Precipitation Events (April-October)",
 		"author": [
 			{
@@ -651,7 +641,6 @@
 		"type": "paper-conference",
 		"event-place": "Los Angeles CA",
 		"event-title": "Association of American Geographers annual meeting",
-		"genre": "Talk",
 		"publisher-place": "Los Angeles CA",
 		"title": "Using Radar Composites to Detect Variances in Precipitation from Cold Fronts Across the Chesapeake Bay: April through October from 1997 to 2012",
 		"author": [

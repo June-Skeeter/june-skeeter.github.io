@@ -21,7 +21,7 @@ View the .pdf version [here](CV_Skeeter.pdf)
 +-----------------------------------------------------------:+-------:+
 |                                                            |        |
 +============================================================+=======:+
-|PhD Geography, University of British Columbia (UBC)         | 2022   |
+|PhD Geography, University of British Columbia (UBC)         | 2023   |
 |                                                            |        |
 | * {{< var Dissertation >}}                                 |        |
 +------------------------------------------------------------+--------+
@@ -153,7 +153,7 @@ View the .pdf version [here](CV_Skeeter.pdf)
 | - Drone Surveying              | - Matlab                       | - Mapbox API            |
 | - Machine Learning             | - HTML                         | - Loggernet             |
 | - Image Classification         | - Markdown                     | - Eddy Pro              |
-| - Empirical Modelling          | - CRBasic                      | - Quarto                |
+| - Process Based Modelling      | - CRBasic                      | - Quarto                |
 +--------------------------------+--------------------------------+-------------------------+
 
 : {tbl-colwidths="[33,33,33]"}
