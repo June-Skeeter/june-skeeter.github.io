@@ -75,14 +75,49 @@ I have been working as a sessional instructor at UBC since 2020.  In November 20
 ## Courses
 
 
-From Summer 2020 to Summer 2023, I taught Geographic Information Science.  You can find the website for the most recent term of the course [here](https://geos270.github.io/).  As of Fall 2023, I am teaching "Atmospheric Environments", which is an introductory level course focusing on the dynamics governing the weather and climate.  The course website can be found [here](https://geos200.github.io/).  In Winter 2023, I will be teaching "Microscale Weather and Climate", an upper level course focusing on ecosystem scale weather and climate dynamics and how they influence the global climate system.
+From Summer 2020 to Summer 2023, I taught Geographic Information Science.  You can find the website for the most recent term of the course [here](https://geos270.github.io/).  As of Fall 2023, I am teaching "Atmospheric Environments", which is an introductory level course focusing on the dynamics governing the weather and climate.  The course website can be found [here](https://geos200.github.io/).  In Winter 2023, I will be teaching "Microscale Weather and Climate", a 300 level course focusing on ecosystem scale weather and climate dynamics and how they influence the global climate system.
  
 
 ## Evaluations
 
-All of my available teaching evaluations are posted [here](https://github.com/June-Skeeter/june-skeeter.github.io/tree/main/Evaluations).  Thus far these evaluations only cover GEOS 270 (Geographic Information Science).
+```{python}
+#| echo: false
 
-* The wording of the evaluation questions has changed between terms, but one key question has not changed: **Considering everything, how would you rate this course?**  The chart and table below summarize my student's responses.
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+Evals = pd.read_csv("Evaluations/Considering_everything_how_would_you_rate_this_course.csv")
+
+Summary = Evals[['Very Poor(1)','Poor(2)','Neutral(3)','Good(4)','Very Good(5)']].sum()
+Evals['Response Rate'] = (Evals['n']/Evals['N']).round(2)
+Terms = Evals['N'].count()
+
+
+V = []
+for i,v in enumerate(Summary):
+  for j in range(v):
+    V.append(i+1)
+
+All = np.array(V)
+M = np.median(All)
+
+
+ng = All[All>M].shape[0]
+nl = All[All<M].shape[0]
+ne = All[All==M].shape[0]
+
+
+IM = M+(ng-nl)/(2*ne)
+
+Fav = np.round(All[All>=4].shape[0]/All.shape[0],2)
+
+# print(Fav,IM)
+
+```
+
+All of my available teaching evaluations are posted [here](https://github.com/June-Skeeter/june-skeeter.github.io/tree/main/Evaluations).  Thus far these evaluations only cover GEOS 270 (Geographic Information Science).  I will post my evaluations for GEOS 200 and GEOS 300 when they become available.  The wording of the evaluation questions has changed between terms, but one key question has not changed: **Considering everything, how would you rate this course?**  Over the course of my teaching career, the interpolated median of responses to this question is 4.39/5 and my favorability rating (percentage of 4s and 5s) is 88%.
 
 ::: {.center}
 
@@ -93,14 +128,8 @@ All of my available teaching evaluations are posted [here](https://github.com/Ju
 #| fig-cap: "Student repsones to the question: Considering everything, how would you rate this course?"
 
 import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
-
-Evals = pd.read_csv("Evaluations/Considering_everything_how_would_you_rate_this_course.csv")
-
-Summary = Evals[['Very Poor','Poor','Neutral','Good','Very Good']].sum()
-Evals['Response Rate'] = (Evals['n']/Evals['N']).round(2)
-# Evals['Favorability'] = Evals[['Good','Very Good']].sum(axis=1)/Summary.sum()
-Terms = Evals['N'].count()
 
 fig,ax = plt.subplots(1,1,figsize=(6,4))
 ax.bar(Summary.index,Summary,facecolor='#3248a8',edgecolor='k')
