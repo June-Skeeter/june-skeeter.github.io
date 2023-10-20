@@ -157,10 +157,10 @@ ul.task-list li input[type="checkbox"] {
 <p>Here is a sampling of some of the things I’ve been working on.</p>
 <section id="research-field-work" class="level1">
 <h1>Research &amp; Field Work</h1>
-<p>Through my career I’ve done field work all over the world, from pine plantations in New Zealand to tundra sites in the Mackenzie Delta region of the Northwest Territories. Presently, I am primarily focused on managing a collection of eddy covariance (EC) stations in Burn’s Bog in Delta, BC.</p>
+<p>Through my career I’ve done field work all over the world, from pine plantations in New Zealand to tundra sites in the Mackenzie Delta region of the Northwest Territories. Presently, I am primarily focused on managing a collection of eddy covariance (EC) stations in the Burns Bog Ecological Conservancy Area in Delta, BC.</p>
 <section id="mobile-bbs-flux-tower" class="level2">
 <h2 class="anchored" data-anchor-id="mobile-bbs-flux-tower">Mobile BBS Flux Tower</h2>
-<p>In spring/summer 2023 I designed and deployed a light-weight EC system mounted on a telescoping tripod to measure CO<sub>2</sub>, water, and energy fluxes over a 7-year old stand of lodgepole pine seedlings in Burns Bog that sprouted following a fire in 2016. The tower will operate through the fall until the sun/cloud conditions become unfavorable for solar power generation. We will restart observations in late winter 2024.</p>
+<p>In spring/summer 2023 I designed and deployed a light-weight EC system mounted on a telescoping tripod to measure CO<sub>2</sub>, water, and energy fluxes over a 7-year old stand of lodgepole pine seedlings in Burn’s Bog that sprouted following a fire in 2016. The tower will operate through the fall until the sun/cloud conditions become unfavorable for solar power generation. We will restart observations in late winter 2024.</p>
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
@@ -202,36 +202,45 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="flux-footprint-mapping" class="level2">
 <h2 class="anchored" data-anchor-id="flux-footprint-mapping">Flux Footprint Mapping</h2>
-<p>I’ve developed a python based tool for creating flux footprints web maps using the Kljun et al.&nbsp;(2015) flux footprint model. The maps for our field sites are shown in the image below. You can click the list sites on the left to zoom to site and see the flux footprint climatology for the site. The tool also has the capability to include a vegetation map for the site to better estimate the flux contribution by different source/sink area</p>
-<ul>
-<li>I’m still working on preparing/documenting the code for broader distribution. I’ll post a link here when its ready :D</li>
-</ul>
-
-<iframe width="100%" height="500" src="https://ubc-micromet.github.io/FieldSiteMaps/" title="FieldSiteMap">
-  <p>Your browser does not support iframes.</p>
-</iframe>
-<a href="https://ubc-micromet.github.io/FieldSiteMaps/" target="_blank">View Slides in New Tab</a>
-
+<p>I’ve developed a python based tool for creating flux footprints web maps using the Kljun et al.&nbsp;(2015) flux footprint prediction (FFP) model. Given half-hourly turbulence conditions and metadata for a site, this wrapper will calculate the FFP on a per-time-step basis, and output FFP contours over desired intervals in this web-map format. If provided a landscape classification map, the program will also overlay each timestep’s footprint with the map. This allows the user to estimate the relative source contrition of different ecosystem components in some heterogeneous ecosystems. <a href="#fig-output">Figure&nbsp;1</a> shows an example of the web map output for the Burns Bog 2 EC station. You can find more information and links to its github repository <a href="https://june-skeeter.github.io/FFP_Overlay/">here</a>.</p>
+<div id="fig-output" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<div style="overflow: hidden;
+  padding-top: 75%;
+  position: relative">
+<iframe src="https://june-skeeter.github.io/FFP_Overlay/Example_Outputs/BB2_FFP_2m.html" title="Processes" scrolling="no" frameborder="0" style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+<p>
+Your browser does not support iframes.
+</p>
+<p></iframe><p></p>
+</div>
+<figcaption class="figure-caption">Figure&nbsp;1: Flux footprint climatology (2021-2022) for the Burns Bog 2 Eddy Covariance Station, partitioned by season.</figcaption>
+</figure>
+</div>
 </section>
 <section id="arctic-carbon-fluxes" class="level2">
 <h2 class="anchored" data-anchor-id="arctic-carbon-fluxes">Arctic Carbon Fluxes</h2>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="columns">
+<div class="column" style="width:65%;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/FishIsland.jpg" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">The EC station I installed at Fish Island, NWD in 2017</figcaption>
 </figure>
 </div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+</div><div class="column" style="width:5;">
+
+</div><div class="column" style="width:30%;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Illisarvik.jpg" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">Collecting data from the EC station I operated at Illisarvik, NWT in 2016</figcaption>
 </figure>
-</div>
 </div>
 </div>
 </div>
@@ -260,7 +269,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="fig-evals" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="Work_files/figure-html/fig-evals-output-1.png" width="566" height="374" class="figure-img"></p>
-<figcaption class="figure-caption">Figure&nbsp;1: Student repsones to the question: Considering everything, how would you rate this course?</figcaption>
+<figcaption class="figure-caption">Figure&nbsp;2: Student repsones to the question: Considering everything, how would you rate this course?</figcaption>
 </figure>
 </div>
 </div>

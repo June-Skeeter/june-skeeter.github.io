@@ -13,13 +13,11 @@ Here is a sampling of some of the things I've been working on.
 # Research & Field Work
 
 
-Through my career I've done field work all over the world, from pine plantations in New Zealand to tundra sites in the Mackenzie Delta region of the Northwest Territories.  Presently, I am primarily focused on managing a collection of eddy covariance (EC) stations in Burn's Bog in Delta, BC.
+Through my career I've done field work all over the world, from pine plantations in New Zealand to tundra sites in the Mackenzie Delta region of the Northwest Territories.  Presently, I am primarily focused on managing a collection of eddy covariance (EC) stations in the Burns Bog Ecological Conservancy Area in Delta, BC.
 
 ## Mobile BBS Flux Tower
 
-
-
-In spring/summer 2023 I designed and deployed a light-weight EC system mounted on a telescoping tripod to measure CO<sub>2</sub>, water, and energy fluxes over a 7-year old stand of lodgepole pine seedlings in Burns Bog that sprouted following a fire in 2016.  The tower will operate through the fall until the sun/cloud conditions become unfavorable for solar power generation.  We will restart observations in late winter 2024.
+In spring/summer 2023 I designed and deployed a light-weight EC system mounted on a telescoping tripod to measure CO<sub>2</sub>, water, and energy fluxes over a 7-year old stand of lodgepole pine seedlings in Burn's Bog that sprouted following a fire in 2016.  The tower will operate through the fall until the sun/cloud conditions become unfavorable for solar power generation.  We will restart observations in late winter 2024.
 
 ::: {layout-nrow=2}
 
@@ -35,31 +33,51 @@ In spring/summer 2023 I designed and deployed a light-weight EC system mounted o
 
 ## Flux Footprint Mapping
 
-I've developed a python based tool for creating flux footprints web maps using the Kljun et al. (2015) flux footprint model.  The maps for our field sites are shown in the image below.  You can click the list sites on the left to zoom to site and see the flux footprint climatology for the site.  The tool also has the capability to include a vegetation map for the site to better estimate the flux contribution by different source/sink area
+I've developed a python based tool for creating flux footprints web maps using the Kljun et al. (2015) flux footprint prediction (FFP) model.  Given half-hourly turbulence conditions and metadata for a site, this wrapper will calculate the FFP on a per-time-step basis, and output FFP contours over desired intervals in this web-map format.  If provided a landscape classification map, the program will also overlay each timestep's footprint with the map.  This allows the user to estimate the relative source contrition of different ecosystem components in some heterogeneous ecosystems.  @fig-output shows an example of the web map output for the Burns Bog 2 EC station.  You can find more information and links to its github repository [here](https://june-skeeter.github.io/FFP_Overlay/). 
 
-* I'm still working on preparing/documenting the code for broader distribution.  I'll post a link here when its ready :D
+::: {#fig-output}
 
+<div style="overflow: hidden;
+  padding-top: 75%;
+  position: relative">
+  <iframe src="https://june-skeeter.github.io/FFP_Overlay/Example_Outputs/BB2_FFP_2m.html" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
 
-```{=html}
+Flux footprint climatology (2021-2022) for the Burns Bog 2 Eddy Covariance Station, partitioned by season.
 
-<iframe width="100%" height="500"  src="https://ubc-micromet.github.io/FieldSiteMaps/" title="FieldSiteMap">
-  <p>Your browser does not support iframes.</p>
-</iframe>
-<a href="https://ubc-micromet.github.io/FieldSiteMaps/" target="_blank">View Slides in New Tab</a>
+:::
 
-```
 
 
 ## Arctic Carbon Fluxes
 
+:::: {.columns}
 
-::: {layout-ncol=2}
+::: {.column width="65%"}
 
 ![The EC station I installed at Fish Island, NWD in 2017](images/FishIsland.jpg)
 
-![Collecting data from the EC station I operated at Illisarvik, NWT in 2016](images/Illisarvik.jpg){width="80%"}
+:::
+
+::: {.column width="5"}
 
 :::
+
+::: {.column width="30%"}
+
+![Collecting data from the EC station I operated at Illisarvik, NWT in 2016](images/Illisarvik.jpg)
+
+:::
+
+::::
 
 For my PhD research, I studied carbon fluxes in wetland ecosystem in the Mackenzie Delta Region.  I conducted two field seasons of research.  In 2016 I worked at Illisarvik, an artificially drained thermokarst lake on Richard's Island, NWT.  Then in 2017 I installed an EC station at Fish Island, a low-center polygon ecosystem in the Mackenzie River Delta.
 
