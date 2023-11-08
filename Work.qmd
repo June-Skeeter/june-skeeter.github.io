@@ -67,7 +67,7 @@ Flux footprint climatology (2021-2022) for the Burns Bog 2 Eddy Covariance Stati
 
 :::
 
-::: {.column width="5"}
+::: {.column width="5%"}
 
 :::
 
