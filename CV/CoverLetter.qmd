@@ -1,0 +1,30 @@
+---
+title: "Application for Natural Resource Canada Postdoctoral Research Program"
+author: 
+  - name: Dr. June Skeeter
+    email: june.skeeter@ubc.ca
+    url: https://june-skeeter.github.io/
+    pronouns: "they/them/theirs"
+    phone: "604-440-1697"
+indent: true
+---
+
+
+\noindent To whom it may concern,\
+
+I am excited to apply for the Natural Resource Canada Postdoctoral Research Program.  Currently, I am working as both a postdoctoral research fellow in University of British Columbia (UBC) micrometeorology lab under Dr. Sara Knox, and as a postdoctoral teaching fellow in the UBC geography department.  My research focuses on the processes governing ecosystem-atmosphere exchange of energy, water, and greenhouse gasses (GHG) and the resulting feedbacks that influence the global climate system.  I draw on methods from multiple disciplines, including atmospheric science, geographic information science (GIS), remote sensing, and machine learning (ML) to understand and model these processes across spatial and temporal scales.  
+
+I have a background in both Geography and Atmospheric Science, experience with field and computational methods, and a track record of effective teaching.  As an undergraduate I studied climatology and GIS and during my master's I shifted my focus to boundary layer meteorology.  I worked as a research assistant using a backscatter LIDAR to map aerosol dispersal from prescribed burns and aerial pesticide applications.  I also gained experience using particle dispersion models and flux footprint prediction (FFP) models.  For my doctoral research, I planned and executed two eddy covariance (EC) measurement campaigns in the remote Mackenzie Delta region of Canada's Northwest Territories.  I used ML to identify and model controls over GHG fluxes from my field sites and combined my models with reanalysis and remotely sensed data products to upscale GHG flux estimates.  I also worked as a sessional instructor to support myself after my fellowship expired in the later stages of my PhD, teaching Geographic Information Science.  My PhD took seven years to complete, I need not detail the reasons here; but a defining aspect of my PhD experience was my supervisor Dr. Andreas Christen leaving UBC for the University of Freiburg in 2017.
+
+As a postdoc under Dr. Knox in the UBC micrometeorology lab I have continued building my skill set while familiarizing myself with the lab's infrastructure, field sites, workflows, and personnel.  I also helped the lab acquire new funds.  In fall 2022, I prepared a successful Metro Vancouver Sustainability Innovation Fund application for $185 thousand dollars to fund a study on carbon storage and GHG emissions in the Burns Bog Ecological Conservancy Area (BBECA) under different management and climate scenarios.  As part of this work, over the spring and summer of 2023 I designed and installed a lightweight EC system on a telescoping tripod to monitor post-fire carbon fluxes from a rapidly growing stand of logepole pine seedlings.  I have also continued my teaching work, and I feel I am an accomplished educator relative to my career stage.  In 2022 I received an Open Educational Resource Champion award from the UBC Alma Mater Society in recognition of my work producing open access teaching materials.  I have stellar teaching evaluations from eight semesters of which attest to my effectiveness and dedication as an instructor and communicator.
+
+I believe that I am exceptionally qualified to work as a researcher for Natural Resources Canada and I am confident the materials in this application reflect those qualifications.  I know that I will be able to make significant contributions to research if hired.  I have a deep love for both research and the environment, and I am dedicated to using the skills acquired through life to help address climate change.   With my wealth of experience, I know I am the ideal candidate for this position.
+
+  
+\noindent Thank you for your consideration,\
+
+\noindent Dr. June Skeeter
+
+
+
+
