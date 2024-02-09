@@ -564,12 +564,33 @@
 			]
 		}
 	},
+	{"id": "skeeter_tools_2023",
+		"type": "paper-conference",
+		"event-title": "American Geophysical Union annual meeting",
+		"event-place": "San Francisco, CA",
+		"title": "Tools and Guidance for Applying Neural Networks to Eddy Covariance Data",
+		"URL": "https://june-skeeter.github.io/NN_Applications/",
+		"author": [
+			{
+				"family": "Skeeter",
+				"given": "June"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					12,
+					15
+				]
+			]
+		}
+	},
 	{"id": "skeeter_framework_2023",
 		"type": "paper-conference",
 		"event-title": "Canadian Geophysical Union annual meeting",
 		"event-place": "Banff, AB",
 		"title": "A Framework for Applying Neural Networks to Eddy Covariance Data",
-		"URL": "https://june-skeeter.github.io/NN_Applications/",
 		"author": [
 			{
 				"family": "Skeeter",
@@ -664,6 +685,7 @@
 		"event-title": "Guest lecture, GEOS 270",
 		"event-place": "Vancouver, BC",
 		"title": "Data Normalization & Classification: Police Violence in North America",
+		"URL": "https://ubc-lib-geo.github.io/Data-Normalization-Classification/",
 		"author": [
 			{
 				"family": "Skeeter",

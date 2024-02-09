@@ -15,6 +15,10 @@ Here is a sampling of some of the things I've been working on.
 
 Through my career I've done field work all over the world, from pine plantations in New Zealand to tundra sites in the Mackenzie Delta region of the Northwest Territories.  Presently, I am primarily focused on managing a collection of eddy covariance (EC) stations in the Burns Bog Ecological Conservancy Area in Delta, BC.
 
+## Eddy Pro Automation
+
+I have developed an API for automating Eddy Pro, a widely used application for processing eddy covariance data.  The application is still undergoing revisions, but you can find the most recent updates [here](https://github.com/June-Skeeter/EddyPro_API).
+
 ## Mobile BBS Flux Tower
 
 In spring/summer 2023 I designed and deployed a light-weight EC system mounted on a telescoping tripod to measure CO<sub>2</sub>, water, and energy fluxes over a 7-year old stand of lodgepole pine seedlings in Burn's Bog that sprouted following a fire in 2016.  The tower will operate through the fall until the sun/cloud conditions become unfavorable for solar power generation.  We will restart observations in late winter 2024.
@@ -142,8 +146,7 @@ All of my available teaching evaluations are posted [here](https://github.com/Ju
 ```{python}
 #| label: fig-evals
 #| echo: false
-#| cap-location: margin
-#| fig-cap: "Student repsones to the question: Considering everything, how would you rate this course?"
+#| fig-cap: "Student responses to the question: Considering everything, how would you rate this course?"
 
 import pandas as pd
 import numpy as np
