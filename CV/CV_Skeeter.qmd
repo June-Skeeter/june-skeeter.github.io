@@ -6,6 +6,7 @@ author:
     url: https://june-skeeter.github.io/
     pronouns: "they/them/theirs"
     phone: "604 440 1697"
+jupyter: python3
 ---
 
 
@@ -43,9 +44,9 @@ View the .pdf version [here](CV_Skeeter.pdf)
 +================================================================================+===============:+
 | Methane Physical Scientist: Natural Resource Canada                            | 2024           |
 +--------------------------------------------------------------------------------+----------------+
-| Postdoctoral Researcher: UBC Micrometeorology                                  | 2023 - Present |
+| Postdoctoral Researcher: UBC Micrometeorology                                  | 2023 - 2024    |
 +--------------------------------------------------------------------------------+----------------+
-| Sessional Instructor: UBC Geography Department                                 | 2020 - Present |
+| Sessional Instructor: UBC Geography Department                                 | 2020 - 2024    |
 |                                                                                |                |
 | - Microscale Weather and Climate [Course Webpage](https://geos300.github.io/)  |                |
 | - Atmospheric Environments: [Course Webpage](https://geos200.github.io/)       |                |
@@ -68,19 +69,60 @@ View the .pdf version [here](CV_Skeeter.pdf)
 
 # Technical Skills 
 
-+:-------------------------------+:-------------------------------+:------------------------+
-| Field & Research Methods       | Programming & Markup Languages | Software & Applications |
-+:===============================+:===============================+:========================+
-| - Eddy Covariance              | - Python                       | - Git & GitHub          |
-| - Footprint Modelling          | - Matlab                       | - ArcGIS Pro & QGIS     |
-| - Flux Chamber Sampling        | - R                            | - Google Earth Engine   |
-| - Drone Surveying              | - Javascript                   | - Mapbox API            |
-| - Machine Learning             | - CRBasic                      | - Loggernet             |
-| - Image Classification         | - HTML/CSS                     | - Eddy Pro              |
-| - Process Based Modelling      | - Markdown                     | - Quarto                |
-+--------------------------------+--------------------------------+-------------------------+
+```{python}
+#| echo: false
 
-: {tbl-colwidths="[33,33,33]"}
+
+from IPython.display import Markdown
+from tabulate import tabulate
+import pandas as pd
+
+data = {
+  'Programming & Markup Languages':[
+    'Python (10+ yrs)',
+    'Matlab',
+    'R',
+    'Javascript',
+    'CRBasic',
+    'HTML/CSS',
+    'Markdown'
+    ],
+  'Software & Applications':[
+    'ArcGIS & QGIS (10+ yrs)',
+    'Git & GitHub (5+ yrs)',
+    'Google Earth Engine',
+    'Quarto',
+    'Mapbox API',
+    'Loggernet',
+    'Eddy Pro'
+    ],
+  'Field & Research Methods':[
+    'Machine Learning (5+ yrs)',
+    'Eddy Covariance (5+ yrs)',
+    'Image Classification',
+    'Process Based Modelling',
+    'Footprint Modelling',
+    'Flux Chamber Sampling',
+    'Drone Surveying'
+    ]
+}
+l = {}
+mv = 0
+for key,val in data.items():
+  l[key]=len(val)
+  if mv < len(val):
+    mv = len(val)
+for key,val in l.items():
+  if val < mv:
+    for i in range(mv-val):
+      data[key].append('')
+  
+table=pd.DataFrame(data=data)
+Markdown(tabulate(
+  table.values, 
+  headers=table.columns
+))
+```
 
 
 # Publications

@@ -1,0 +1,131 @@
+--- 
+title: Resume
+author:
+  - name: Dr. June Skeeter
+    email: june.skeeter@ubc.ca
+    url: https://june-skeeter.github.io/
+    pronouns: "they/them/theirs"
+    phone: "604 440 1697"
+jupyter: python3
+---
+
+
+# Employment
+
++-------------------------------------------------------------------------------:+---------------:+
+|                                                                                |                |
++================================================================================+===============:+
+| Methane Physical Scientist: Natural Resource Canada                            | 2024           |
++--------------------------------------------------------------------------------+----------------+
+| Postdoctoral Researcher: University of British Columbia (UBC)                  | 2023 - 2024    |
+|                                                                                |                |
+| - Automated, parallelized, and streamlined data processing pipeline            |                |
+| - Implemented and managed version control (git/github) for lab's codebase      |                |
+| - Managed eddy covariance stations in Burn's Bog Ecological Conservancy Area   |                |
+| - Mentored graduate students                                                   |                |
++--------------------------------------------------------------------------------+----------------+
+| Sessional Instructor (UBC)                                                     | 2019 - 2024    |
+|                                                                                |                |
+| - Geographic Information Science; Assorted Weather and Climate Courses         |                |
++--------------------------------------------------------------------------------+----------------+
+| Various Graduate Assistanceships: University of South Carolina (USC) & UBC     | 2013 - 2021    |
++--------------------------------------------------------------------------------+----------------+
+
+: {tbl-colwidths="[80,20]"}
+
+
+# Technical Skills 
+
+```{python}
+#| echo: false
+
+
+from IPython.display import Markdown
+from tabulate import tabulate
+import pandas as pd
+
+data = {
+  'Programming & Markup Languages':[
+    'Python (10+ yrs)',
+    'Matlab',
+    'R',
+    'Javascript',
+    'CRBasic',
+    'HTML/CSS',
+    'Markdown',
+    'Latex'
+    ],
+  'Software & Applications':[
+    'ArcGIS & QGIS (10+ yrs)',
+    'Git & GitHub (5+ yrs)',
+    'Google Earth Engine',
+    'Quarto',
+    'Mapbox API',
+    'Loggernet',
+    'Eddy Pro'
+    ],
+  'Field & Research Methods':[
+    'Machine Learning (5+ yrs)',
+    'Eddy Covariance (5+ yrs)',
+    'Image Classification',
+    'Process-based Modelling',
+    'Footprint Modelling',
+    'Flux Chamber Sampling',
+    'Drone Surveying'
+    ]
+}
+l = {}
+mv = 0
+for key,val in data.items():
+  l[key]=len(val)
+  if mv < len(val):
+    mv = len(val)
+for key,val in l.items():
+  if val < mv:
+    for i in range(mv-val):
+      data[key].append('')
+  
+table=pd.DataFrame(data=data)
+Markdown(tabulate(
+  table.values, 
+  headers=table.columns
+))
+```
+
+
+# Education
+
++----------------------------------------------------------------------------------------------------------------------------------------:+-------:+
+|                                                                                                                                         |        |
++=========================================================================================================================================+=======:+
+|PhD Geography, University of British Columbia (UBC)                                                                                      | 2023   |
+|                                                                                                                                         |        |
+| - Using machine learning to identify and map controls of growing-season carbon dioxide and methane fluxes in the Mackenzie Delta region |        |
++-----------------------------------------------------------------------------------------------------------------------------------------+--------+
+| MsC Geography, University of South Carolina (USC)                                                                                       | 2015   |
+|                                                                                                                                         |        |
+| - Ammonium Concentrations Above a Louisiana Sugarcane Field                                                                             |        |
++-----------------------------------------------------------------------------------------------------------------------------------------+--------+
+| BS Geography & BS Earth Science, Salisbury University (SU)                                                                              | 2013   |
+|                                                                                                                                         |        |
+| - Minor in Statistics; Graduated Cum Laude                                                                                              |        |
++-----------------------------------------------------------------------------------------------------------------------------------------+--------+
+
+: {tbl-colwidths="[80,20]"}
+
+
+# Awards
+
++------------------------------------------------------------------:+------------:+
+|                                                                   |             |
++===================================================================+============:+
+| Open Educational Resource Champion, UBC Alma Mater Society        | 2022        |
++-------------------------------------------------------------------+-------------+
+| Four-year Doctoral Fellowship, UBC                                | 2015 - 2019 |
++-------------------------------------------------------------------+-------------+
+| Outstanding Graduating Senior Award, SU Geography                 | 2013        |
++-------------------------------------------------------------------+-------------+
+| Presidential Scholarship, SU                                      | 2009 - 2013 |
++-------------------------------------------------------------------+-------------+
+
+: {tbl-colwidths="[80,20]"}
