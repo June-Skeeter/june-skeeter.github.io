@@ -1,0 +1,58 @@
+
+# Technical Skills 
+
+```{python}
+#| echo: false
+
+
+from IPython.display import Markdown
+from tabulate import tabulate
+import pandas as pd
+
+data = {
+  'Programming & Markup Languages':[
+    'Python (10+ yrs)',
+    'Matlab',
+    'R',
+    'Javascript',
+    'CRBasic',
+    'HTML/CSS',
+    'Markdown',
+    'Latex'
+    ],
+  'Software & Applications':[
+    'ArcGIS & QGIS (10+ yrs)',
+    'Git & GitHub (5+ yrs)',
+    'Google Earth Engine',
+    'Quarto',
+    'Mapbox API',
+    'Loggernet',
+    'Eddy Pro'
+    ],
+  'Field & Research Methods':[
+    'Machine Learning (5+ yrs)',
+    'Eddy Covariance (5+ yrs)',
+    'Image Classification',
+    'Process-based Modelling',
+    'Footprint Modelling',
+    'Flux Chamber Sampling',
+    'Drone Surveying'
+    ]
+}
+l = {}
+mv = 0
+for key,val in data.items():
+  l[key]=len(val)
+  if mv < len(val):
+    mv = len(val)
+for key,val in l.items():
+  if val < mv:
+    for i in range(mv-val):
+      data[key].append('')
+  
+table=pd.DataFrame(data=data)
+Markdown(tabulate(
+  table.values, 
+  headers=table.columns
+))
+```

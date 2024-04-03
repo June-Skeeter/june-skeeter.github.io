@@ -1,0 +1,23 @@
+
+# Employment
+
++-------------------------------------------------------------------------------:+---------------:+
+|                                                                                |                |
++================================================================================+===============:+
+| Methane Physical Scientist: Natural Resource Canada                            | 2024           |
++--------------------------------------------------------------------------------+----------------+
+| Postdoctoral Researcher: University of British Columbia (UBC)                  | 2023 - 2024    |
+|                                                                                |                |
+| - Automated, parallelized, and streamlined data processing pipeline            |                |
+| - Implemented and managed version control (git/github) for lab's codebase      |                |
+| - Managed eddy covariance stations in Burn's Bog Ecological Conservancy Area   |                |
+| - Mentored graduate students                                                   |                |
++--------------------------------------------------------------------------------+----------------+
+| Sessional Instructor (UBC)                                                     | 2019 - 2024    |
+|                                                                                |                |
+| - Geographic Information Science; Assorted Weather and Climate Courses         |                |
++--------------------------------------------------------------------------------+----------------+
+| Various Graduate Assistanceships: University of South Carolina (USC) & UBC     | 2013 - 2021    |
++--------------------------------------------------------------------------------+----------------+
+
+: {tbl-colwidths="[80,20]"}
