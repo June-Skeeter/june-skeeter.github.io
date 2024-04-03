@@ -11,7 +11,7 @@ title: "About Me"
 
 **Email**: june.skeeter@ubc.ca
 
-Hi! I'm Dr. June Skeeter.  I am a micrometeorologist and spatial data scientist.  I am currently working at the University of British Columbia as a postdoctoral researcher and sessional instructor.  My principal area of focus is the processes governing ecosystem-atmosphere exchange of greenhouse gasses such as carbon dioxide and methane; and the resulting feedbacks that influence the global climate system.
+Hi! I'm Dr. June Skeeter.  I am a micrometeorologist and spatial data scientist.  I am currently working at the University of British Columbia as a postdoctoral fellow.  My principal area of focus is the processes governing ecosystem-atmosphere exchange of energy, water, and greenhouse gasses such as carbon dioxide and methane; and the associated feedback mechanisms that influence the global climate system.
 
 :::
 :::{.column width="5%"}
