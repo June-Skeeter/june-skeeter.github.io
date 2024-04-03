@@ -4,8 +4,6 @@
 +-------------------------------------------------------------------------------:+---------------:+
 |                                                                                |                |
 +================================================================================+===============:+
-| Methane Physical Scientist: Natural Resource Canada                            | 2024           |
-+--------------------------------------------------------------------------------+----------------+
 | Postdoctoral Researcher: University of British Columbia (UBC)                  | 2023 - 2024    |
 |                                                                                |                |
 | - Automated, parallelized, and streamlined data processing pipeline            |                |
@@ -13,11 +11,20 @@
 | - Managed eddy covariance stations in Burn's Bog Ecological Conservancy Area   |                |
 | - Mentored graduate students                                                   |                |
 +--------------------------------------------------------------------------------+----------------+
-| Sessional Instructor (UBC)                                                     | 2019 - 2024    |
-|                                                                                |                |
-| - Geographic Information Science; Assorted Weather and Climate Courses         |                |
+| Methane Physical Scientist: Natural Resource Canada                            | 2024           |
 +--------------------------------------------------------------------------------+----------------+
-| Various Graduate Assistanceships: University of South Carolina (USC) & UBC     | 2013 - 2021    |
+| Sessional Instructor (UBC)                                                     |                |
+|                                                                                |                |
+| - Microscale Weather and Climate: <https://geos300.github.io/>                 | 2024           |
+| - Atmospheric Environments: <https://geos200.github.io/>                       | 2023           |
+| - Geographic Information Science: <https://geos270.github.io/>                 | 2019 - 2023    |
++--------------------------------------------------------------------------------+----------------+
+| Graduate Assistanceships:                                                      |                |
+|                                                                                |                |
+| - Workshop design & GIS consulting UBC Library Research Commons                | 2020 -2022     |
+| - GIS Instructor UBC School of Community and Regional Planning                 | 2019           |
+| - Teaching Assistant (GIS) UBC Geography Department                            | 2016-2019      |
+| - Research Assistant University of South Carolina                              | 2016-2019      |
 +--------------------------------------------------------------------------------+----------------+
 
 : {tbl-colwidths="[80,20]"}

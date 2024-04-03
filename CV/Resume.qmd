@@ -12,6 +12,7 @@ jupyter: python3
 
 {{< include _Employment.qmd >}}
 
+{{< include _Skills.qmd >}}
 
 {{< include _Education.qmd >}}
 
