@@ -13,7 +13,7 @@ Here is a sampling of some of the things I've been working on.
 # Research & Field Work
 
 
-Through my career I've done field work all over the world, from pine plantations in New Zealand to tundra sites in the Mackenzie Delta region of the Northwest Territories.  Presently, I am primarily focused on managing a collection of eddy covariance (EC) stations in the Burns Bog Ecological Conservancy Area in Delta, BC.
+Presently, I am primarily focused on developing a network of eddy covariance (EC) stations in the Mackenzie Delta region of the Northwest Territories.  Some of my previous projects are listed below.
 
 ## Eddy Pro Automation
 

@@ -4,14 +4,18 @@
 +-------------------------------------------------------------------------------:+---------------:+
 |                                                                                |                |
 +================================================================================+===============:+
+| Research Scientist: Natural Resources Canada                                   | 2024           |
+|                                                                                |                |
+| - Leading Eddy Covariance (EC) Research Program in Wester Canadian Arctic      |                |
+| - Developing open access tools to facilitate data processing                   |                |
+| - Advising territorial and indigenous governments on climate mitigation        |                |
++--------------------------------------------------------------------------------+----------------+
 | Postdoctoral Researcher: University of British Columbia (UBC)                  | 2023 - 2024    |
 |                                                                                |                |
 | - Automated, parallelized, and streamlined data processing pipeline            |                |
 | - Implemented and managed version control (git/github) for lab's codebase      |                |
-| - Managed eddy covariance stations in Burn's Bog Ecological Conservancy Area   |                |
+| - Managed EC stations in Burn's Bog Ecological Conservancy Area                |                |
 | - Mentored graduate students                                                   |                |
-+--------------------------------------------------------------------------------+----------------+
-| Methane Physical Scientist: Natural Resource Canada                            | 2024           |
 +--------------------------------------------------------------------------------+----------------+
 | Sessional Instructor (UBC)                                                     |                |
 |                                                                                |                |

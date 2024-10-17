@@ -31,7 +31,7 @@ data = {
     ],
   'Field & Research Methods':[
     'Machine Learning (5+ yrs)',
-    'Eddy Covariance (5+ yrs)',
+    'Eddy Covariance (10+ yrs)',
     'Image Classification',
     'Process-based Modelling',
     'Footprint Modelling',
