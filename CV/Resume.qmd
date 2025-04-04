@@ -2,10 +2,9 @@
 title: Resume
 author:
   - name: Dr. June Skeeter
-    email: june.skeeter@ubc.ca
+    email: june-skeeter@nrcan-rncan.gc.ca
     url: https://june-skeeter.github.io/
     pronouns: "they/them/theirs"
-    phone: "604 440 1697"
 jupyter: python3
 ---
 

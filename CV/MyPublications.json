@@ -113,12 +113,12 @@
 	},
 	{
 		"id": "skeeter_fluxnet_2024",
-		"type": "speech",
+		"type": "paper-conference",
 		"event-place": "Berkley, CA",
 		"event-title": "FLUXNET-CH4 V2.0 Data Processing Workshop",
 		"publisher-place": "Berkley, CA",
 		"title": "An Application Program Interface for Automating and Parallelizing EddyPro®",
-		"URL": "https://canflux.github.io/EddyPro_API/Documentation/about.html#/title-slide",
+		"URL": "https://canflux.github.io/EddyPro_API/Documentation/about.html",
 		"author": [
 			{
 				"family": "Skeeter",
@@ -137,12 +137,12 @@
 	},
 	{
 		"id": "skeeter_understanding_2025",
-		"type": "speech",
+		"type": "lecture",
 		"event-place": "Vancouver BC",
 		"event-title": "Frank Butara Visist: Associate Director General of NRCan Communications and Portfolio Services",
 		"publisher-place": "Vancouver BC",
 		"title": "Understanding Methane and Carbon Dioxide Emissions in the Mackenzie Delta Region",
-		"URL": "https://june-skeeter.github.io/MackenzieDeltaFluxes/#/title-slide",
+		"URL": "https://june-skeeter.github.io/MackenzieDeltaFluxes",
 		"author": [
 			{
 				"family": "Skeeter",
@@ -161,7 +161,7 @@
 	},
 	{
 		"id": "morse_collaborative_2024",
-		"type": "speech",
+		"type": "paper-conference",
 		"event-place": "Yelowkife, NT",
 		"event-title": "Yellowknife Geoscience Forum",
 		"genre": "Poster",
@@ -945,6 +945,7 @@
 		"type": "paper-conference",
 		"event-title": "European Geophysical Union annual meeting",
 		"event-place": "Vienna, AT",
+		"genre": "Poster",
 		"title": "Growing Season Carbon Balance of a Permafrost Peatland in the Mackenzie River Delta",
 		"author": [
 			{

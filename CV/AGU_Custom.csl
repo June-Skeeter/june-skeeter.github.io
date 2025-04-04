@@ -170,13 +170,13 @@
             <text variable="DOI" prefix="https://doi.org/"/>
           </if>
           <else-if variable="URL" match="any">
-            <group>
-              <text term="see" suffix=" "/>
+            <group delimiter=" ">
+              <!-- <text term="see" suffix=" "/> -->
               <text variable="URL"/>
             </group>
           </else-if>
           <else-if variable="archive" match="any">
-            <group>
+            <group delimiter=" ">
               <text term="retrieved" text-case="capitalize-first" suffix=" "/>
               <text term="from" suffix=" "/>
               <text variable="archive" suffix="."/>
@@ -198,14 +198,14 @@
                   <group>
                     <date variable="accessed" form="text" suffix=", "/>
                   </group>
-                  <text term="from"/>
+                  <!-- <text term="from"/> -->
                   <text variable="URL"/>
                 </group>
               </if>
               <else>
-                <group>
+                <group delimiter=" ">
                   <!-- <text term="retrieved" text-case="capitalize-first" suffix=" "/> -->
-                  <text term="see" suffix=" "/>
+                  <!-- <text term="see" suffix=" "/> -->
                   <text variable="URL"/>
                 </group>
               </else>
@@ -349,9 +349,9 @@
                   <if variable="publisher-place">
                     <text variable="publisher-place"/>
                   </if>
-                  <else>
+                  <!-- <else>
                     <text variable="event-place"/>
-                  </else>
+                  </else> -->
                 </choose>
                 <text variable="publisher"/>
               </group>
@@ -365,13 +365,15 @@
     <choose>
       <if variable="container-title" match="none">
         <choose>
-          <if variable="event">
+          <if variable="event-title">
             <choose>
               <if variable="genre" match="none">
-                <text term="presented at" text-case="capitalize-first" suffix=" "/>
-                <text variable="event-title"/>
-                <text term="in"/>
-                <text variable="event-title"/>
+                <group delimiter=" ">
+                  <text term="presented at" text-case="capitalize-first" suffix=" "/>
+                  <text variable="event-title"/>
+                  <text term="in"/>
+                  <text variable="event-place"/>
+                </group>
                 
               </if>
               <else>
@@ -380,7 +382,7 @@
                   <text term="presented at"/>
                   <text variable="event-title"/>
                   <text term="in"/>
-                  <text variable="event-title"/>
+                  <text variable="event-place"/>
                 </group>
               </else>
             </choose>
@@ -684,7 +686,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="8" et-al-use-first="6" entry-spacing="0" line-spacing="2">
+  <bibliography hanging-indent="true" et-al-min="8" et-al-use-first="8" entry-spacing="0" line-spacing="2">
     <sort>
     <!-- JS - changed order to work for CV sort by date descending before anything else-->
       <key macro="issued-sort" sort="descending"/>

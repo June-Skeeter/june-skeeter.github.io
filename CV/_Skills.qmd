@@ -31,12 +31,13 @@ data = {
     'Eddy Pro'
     ],
   'Field & Research Methods':[
-    'Machine Learning (5+ yrs)',
     'Eddy Covariance (10+ yrs)',
+    'Machine Learning (5+ yrs)',
+    'Flux Chamber Sampling',
+    'Soil Carbon Sampling',
     'Image Classification',
     'Process-based Modelling',
     'Footprint Modelling',
-    'Flux Chamber Sampling',
     'Drone Surveying'
     ]
 }

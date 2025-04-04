@@ -2,10 +2,9 @@
 title: "Curriculum Vitae"
 author:
   - name: Dr. June Skeeter
-    email: june.skeeter@ubc.ca
+    email: june-skeeter@nrcan-rncan.gc.ca
     url: https://june-skeeter.github.io/
     pronouns: "they/them/theirs"
-    phone: "604 440 1697"
 jupyter: python3
 ---
 
@@ -19,8 +18,6 @@ View the .pdf version of my CV [here](CV_Skeeter.pdf) or an abbreviated resume [
 {{< include _Education.qmd >}}
 
 {{< include _Employment.qmd >}}
-
-{{< include _Skills.qmd >}}
 
 # Publications
 
@@ -55,7 +52,6 @@ View the .pdf version of my CV [here](CV_Skeeter.pdf) or an abbreviated resume [
 
 ::: hide-me
 @skeeter_understanding_2025
-@morse_collaborative_2024
 @skeeter_fluxnet_2024
 @skeeter_tools_2023
 @skeeter_framework_2023
@@ -92,6 +88,7 @@ View the .pdf version of my CV [here](CV_Skeeter.pdf) or an abbreviated resume [
 
 ::: hide-me
 
+@morse_collaborative_2024
 @skeeter_growing_2018
 @skeeter_carbon_2016
 @skeeter_source_2014
@@ -100,12 +97,17 @@ View the .pdf version of my CV [here](CV_Skeeter.pdf) or an abbreviated resume [
 
 :::
 
+{{< include _Skills.qmd >}}
+
+<br>
 
 # Volunteer Work and Committee Positions
 
 +----------------------------------------------------------------------------------------------:+---------------:+
 |                                                                                               |                |
 +===============================================================================================+===============:+
+| Advisory Board Northwest Territories Landscape Carbon Conference                              | 2024 - 2025    |
++-----------------------------------------------------------------------------------------------+----------------+
 | Western Director, Canadian Society for Agriculture and Forest Meteorology                     | 2023 - 2024    |
 +-----------------------------------------------------------------------------------------------+----------------+
 | [Police Involved Deaths in Canada Database](https://police-involved-deaths-ca.github.io/Data/)| 2020 - 2022    |

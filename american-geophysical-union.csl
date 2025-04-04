@@ -365,17 +365,17 @@
     <choose>
       <if variable="container-title" match="none">
         <choose>
-          <if variable="event">
+          <if variable="event-title">
             <choose>
               <if variable="genre" match="none">
                 <text term="presented at" text-case="capitalize-first" suffix=" "/>
-                <text variable="event"/>
+                <text variable="event-title"/>
               </if>
               <else>
                 <group delimiter=" ">
                   <text variable="genre" text-case="capitalize-first"/>
                   <text term="presented at"/>
-                  <text variable="event"/>
+                  <text variable="event-title"/>
                 </group>
               </else>
             </choose>
@@ -682,7 +682,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="8" et-al-use-first="6" entry-spacing="0" line-spacing="2">
+  <bibliography hanging-indent="true" et-al-min="10" et-al-use-first="10" entry-spacing="0" line-spacing="2">
     <sort>
     <!-- JS - changed order to work for CV sort by date descending before anything else-->
       <key macro="date-sort" sort="descending"/>
@@ -695,19 +695,19 @@
       <group suffix=".">
         <group delimiter=". ">
           <text macro="author"/>
-          <text macro="issued"/>
+          <!-- <text macro="issued"/>
           <text macro="title-plus-extra"/>
-          <text macro="container"/>
+          <text macro="container"/> -->
         </group>
-        <text macro="legal-cites"/>
-        <text macro="locators"/>
-        <group delimiter=", " prefix=". ">
+        <!-- <text macro="legal-cites"/>
+        <text macro="locators"/> -->
+        <!-- <group delimiter=", " prefix=". ">
           <text macro="event"/>
           <text macro="publisher"/>
-        </group>
+        </group> -->
       </group>
       <text macro="access" prefix=" "/>
-      <text macro="original-date" prefix=" "/>
+      <!-- <text macro="original-date" prefix=" "/> -->
     </layout>
   </bibliography>
 </style>

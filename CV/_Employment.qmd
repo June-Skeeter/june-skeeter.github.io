@@ -4,11 +4,12 @@
 +-------------------------------------------------------------------------------:+---------------:+
 |                                                                                |                |
 +================================================================================+===============:+
-| Research Scientist: Natural Resources Canada                                   | 2024-2028      |
+| Research Scientist: Natural Resources Canada                                   | 2024+          |
 |                                                                                |                |
-| - Leading Eddy Covariance (EC) Research Program in Wester Canadian Arctic      |                |
-| - Developing open access tools to facilitate data processing                   |                |
+| - Leading Eddy Covariance (EC) Research Program in Western Canadian Arctic     |                |
+| - Investigating Geologic Methane Emissions in the Mackenzie Delta Region       |                |
 | - Advising territorial and indigenous governments on climate mitigation        |                |
+| - Developing open access tools to facilitate data processing                   |                |
 +--------------------------------------------------------------------------------+----------------+
 | Postdoctoral Researcher: University of British Columbia (UBC)                  | 2023-2024      |
 |                                                                                |                |
