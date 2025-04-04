@@ -11,9 +11,10 @@ import pandas as pd
 
 data = {
   'Programming & Markup Languages':[
-    'Python (10+ yrs)',
+    'Python (15+ yrs)',
     'Matlab',
-    'R',
+    'R (5+ yrs)',
+    'Fortran',
     'Javascript',
     'CRBasic',
     'HTML/CSS',
@@ -22,7 +23,7 @@ data = {
     ],
   'Software & Applications':[
     'ArcGIS & QGIS (10+ yrs)',
-    'Git & GitHub (5+ yrs)',
+    'Git & GitHub (10+ yrs)',
     'Google Earth Engine',
     'Quarto',
     'Mapbox API',

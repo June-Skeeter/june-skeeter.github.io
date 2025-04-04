@@ -1,4 +1,222 @@
 [
+	{
+		"id": "exler_quantified_2025",
+		"type": "article-journal",
+		"abstract": "This study quantified surface energy balance and evapotranspiration in a Sphagnum-dominated ombrotrophic bog located near their southern limit in western North America (49.13∘ N, 122.98∘ W) from summer 2014 through 2022 to assess the bog's sensitivity to future climatic conditions, particularly to increasing severity and duration of drought conditions. Precipitation exceeded evapotranspiration in winter, but net surface water exchange was negative for between four and six months in summer. Shifts in surface water exchange towards net gain occurred consistently between early September and late October; the timing of the shift towards net loss was less consistent in spring, ranging from mid-February to mid-May. Daily evapotranspiration was primarily driven by net radiation and vapour pressure deficit. Surface moisture availability, as represented by water table depth, was a secondary control. Evapotranspiration tended to decline with increasing water table depth, with a slight flattening of the relation below a depth of about 0.058 m. The initial, more rapid, rate of decline is hypothesized to reflect a decrease of surface ponding and the decreased effect at greater depths to be associated with continued supply of water to the peat surface by capillary transport. Albedo increased from about 0.10 to 0.14 over each growing season, but the negative feedback on available energy for evapotranspiration at the peat surface was minimal. Net radiation did not vary substantially among years, and maximum seasonal water table drawdown appeared to be most strongly associated with growing season vapour pressure deficit, and was not correlated with the duration of seasonal net water loss to the atmosphere. In a climate change context, this study suggests that the ecohydrological response of ombrotrophic bogs will be most sensitive to changes in summertime vapour pressure deficit, which is projected to increase in the future.",
+		"container-title": "Agricultural and Forest Meteorology",
+		"DOI": "10.1016/j.agrformet.2025.110501",
+		"ISSN": "0168-1923",
+		"journalAbbreviation": "Agricultural and Forest Meteorology",
+		"page": "110501",
+		"source": "ScienceDirect",
+		"title": "Interannual climatic sensitivity of surface energy flux densities and evapotranspiration in a disturbed and rewetted ombrotrophic bog",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0168192325001212",
+		"volume": "367",
+		"author": [
+			{
+				"family": "Exler",
+				"given": "J. L."
+			},
+			{
+				"family": "Skeeter",
+				"given": "J."
+			},
+			{
+				"family": "Christen",
+				"given": "A."
+			},
+			{
+				"family": "Moore",
+				"given": "R. D."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					4
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					5,
+					15
+				]
+			]
+		}
+	},
+	{
+		"id": "thayamkottu_dual_2025",
+		"type": "article-journal",
+		"abstract": "Despite only covering ~3 % of the land mass, peatlands store more carbon (C) per unit area than any other ecosystem. This is due to the discrepancy between C fixed by the plants (Gross primary productivity (GPP)) and decomposition. However, this C is vulnerable to frequent, severe droughts and changes in the peatland microclimate. Plants play a vital role in ecosystem C dynamics under drought by mediating water loss to the atmosphere (surface water vapour conductance) and GPP by the presence/absence of stomatal regulation. This is dependent on soil moisture, air temperature, and vapour pressure deficit (VPD). Although there is ample evidence of the role of VPD on stomatal regulation and GPP, the impact of soil moisture is still debated. We addressed this knowledge gap by investigating the role of bulk surface conductance of water vapour in shifts between climatic (Air temperature (Tair), incoming shortwave radiation (SWR) and VPD) and water limitation of GPP in a peat bog in Canada. A causal analysis process was used to investigate how environmental factors influenced GPP. The results suggested that stomatal regulation in response to increased VPD caused the reduction in GPP in 2016 (~2.5 gC m−2 day−1 as opposed to ~3 gC m−2 day−1 in 2018). In contrast, GPP was limited again in 2019 due to the dry surface. This was driven by the relaxed stomatal regulation adopted by the ecosystem following the initial drought to maximise C assimilation. We found the threshold at which surface water decline limited GPP was at about −8 cm water table depth (82.5 % soil moisture). The causal inference corroborated our findings. The temporal variations of water and energy limitation seen in this study could increasingly restrict GPP due to the projected climate warming.",
+		"container-title": "Science of The Total Environment",
+		"DOI": "10.1016/j.scitotenv.2024.178366",
+		"ISSN": "0048-9697",
+		"journalAbbreviation": "Science of The Total Environment",
+		"page": "178366",
+		"source": "ScienceDirect",
+		"title": "Dual controls of vapour pressure deficit and soil moisture on photosynthesis in a restored temperate bog",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0048969724085243",
+		"volume": "963",
+		"author": [
+			{
+				"family": "Thayamkottu",
+				"given": "Sandeep"
+			},
+			{
+				"family": "Masta",
+				"given": "Mohit"
+			},
+			{
+				"family": "Skeeter",
+				"given": "June"
+			},
+			{
+				"family": "Pärn",
+				"given": "Jaan"
+			},
+			{
+				"family": "Knox",
+				"given": "Sara H."
+			},
+			{
+				"family": "Smallman",
+				"given": "T. Luke"
+			},
+			{
+				"family": "Mander",
+				"given": "Ülo"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					4
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					2,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "skeeter_fluxnet_2024",
+		"type": "speech",
+		"event-place": "Berkley, CA",
+		"event-title": "FLUXNET-CH4 V2.0 Data Processing Workshop",
+		"publisher-place": "Berkley, CA",
+		"title": "An Application Program Interface for Automating and Parallelizing EddyPro®",
+		"URL": "https://canflux.github.io/EddyPro_API/Documentation/about.html#/title-slide",
+		"author": [
+			{
+				"family": "Skeeter",
+				"given": "J"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					10,
+					22
+				]
+			]
+		}
+	},
+	{
+		"id": "skeeter_understanding_2025",
+		"type": "speech",
+		"event-place": "Vancouver BC",
+		"event-title": "Frank Butara Visist: Associate Director General of NRCan Communications and Portfolio Services",
+		"publisher-place": "Vancouver BC",
+		"title": "Understanding Methane and Carbon Dioxide Emissions in the Mackenzie Delta Region",
+		"URL": "https://june-skeeter.github.io/MackenzieDeltaFluxes/#/title-slide",
+		"author": [
+			{
+				"family": "Skeeter",
+				"given": "June"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					3,
+					25
+				]
+			]
+		}
+	},
+	{
+		"id": "morse_collaborative_2024",
+		"type": "speech",
+		"event-place": "Yelowkife, NT",
+		"event-title": "Yellowknife Geoscience Forum",
+		"genre": "Poster",
+		"publisher-place": "Yelowkife, NT",
+		"title": "Collaborative Studies to appraise methane release from degrading permafrost, western Canadian Arctic",
+		"URL": "https://event.fourwaves.com/ygf2024/abstracts/0ff20029-97a5-418b-b374-f87eb9a2c5a4",
+		"author": [
+			{
+				"family": "Morse",
+				"given": "Peter D."
+			},
+			{
+				"family": "Dallimore",
+				"given": "Scott"
+			},
+			{
+				"family": "Gordial",
+				"given": "Jackie"
+			},
+			{
+				"family": "Lapham",
+				"given": "Laura"
+			},
+			{
+				"family": "MacLeod",
+				"given": "Roger"
+			},
+			{
+				"family": "Mollica",
+				"given": "Lexie"
+			},
+			{
+				"family": "Norooz Oliaee",
+				"given": "Jalal"
+			},
+			{
+				"family": "Sanden",
+				"given": "Jost",
+				"non-dropping-particle": "van der"
+			},
+			{
+				"family": "Skeeter",
+				"given": "June"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					11,
+					26
+				]
+			]
+		}
+	},
 	{"id": "skeeter_using_2013-1",
 		"type": "article-journal",
 		"container-title": "Pennsylvania Geographer",

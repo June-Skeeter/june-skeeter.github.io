@@ -4,7 +4,7 @@
 +-------------------------------------------------------------------------------:+---------------:+
 |                                                                                |                |
 +================================================================================+===============:+
-| Research Scientist: Natural Resources Canada                                   | 2024           |
+| Research Scientist: Natural Resources Canada                                   | 2024-2028      |
 |                                                                                |                |
 | - Leading Eddy Covariance (EC) Research Program in Wester Canadian Arctic      |                |
 | - Developing open access tools to facilitate data processing                   |                |

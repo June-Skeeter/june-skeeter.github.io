@@ -28,7 +28,8 @@ View the .pdf version of my CV [here](CV_Skeeter.pdf) or an abbreviated resume [
 
 
 ::: hide-me
-
+@exler_quantified_2025
+@thayamkottu_dual_2025
 @skeeter_modelling_2023
 @skeeter_controls_2022
 @skeeter_vegetation_2020
@@ -53,7 +54,9 @@ View the .pdf version of my CV [here](CV_Skeeter.pdf) or an abbreviated resume [
 ## Research Talks
 
 ::: hide-me
-
+@skeeter_understanding_2025
+@morse_collaborative_2024
+@skeeter_fluxnet_2024
 @skeeter_tools_2023
 @skeeter_framework_2023
 @skeeter_ongoing_2023
