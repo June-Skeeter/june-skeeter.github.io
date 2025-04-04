@@ -3,6 +3,7 @@ title: "Curriculum Vitae"
 author:
   - name: Dr. June Skeeter
     email: june-skeeter@nrcan-rncan.gc.ca
+    phone: "604 440 1697"
     url: https://june-skeeter.github.io/
     pronouns: "they/them/theirs"
 jupyter: python3
